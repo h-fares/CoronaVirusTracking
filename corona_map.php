@@ -44,9 +44,9 @@ function drawCoronaMap()
             },
 
             mapNavigation: {
-                enabled: false,
+                enabled: true,
                 buttonOptions: {
-                    verticalAlign: 'bottom'
+                    verticalAlign: 'top'
                 }
             },
 
