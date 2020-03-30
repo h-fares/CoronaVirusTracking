@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/offline-exporting.js"></script>
+    <script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
+</head>
+<body>
+<div><h1>Test</h1></div>
+<div class="frame_map">
+    <div class="border_up">OUR CUSTOMERS</div>
+    <div id="customers_maps" style="border-radius: 10px;">
+        <div id="container" style="height: 500px; min-width: 310px; max-width: 800px; margin: 0 auto"></div>
+    </div>
+</div>
+<script>
+    Highcharts.getJSON('https://api.covid19api.com/summary', function (data) {
+
+        // Prevent logarithmic errors in color calulcation
+        data['Countries'].forEach(function (p) {
+            p.TotalConfirmed = (p.TotalConfirmed < 1 ? 1: p.TotalConfirmed);
+            if(p.Country === 'US') {
+                p.Country = 'United States of America';
+            }
+        });
+
+        // Initiate the chart
+        Highcharts.mapChart('container', {
+
+            chart: {
+                map: 'custom/world'
+            },
+
+            title: {
+                text: 'Fixed tooltip with HTML'
+            },
+            credits: {
+                enabled: false
+            },
+            legend: {
+                title: {
+                    text: 'Population density per km²',
+                    style: {
+                        color: ( // theme
+                            Highcharts.defaultOptions &&
+                            Highcharts.defaultOptions.legend &&
+                            Highcharts.defaultOptions.legend.title &&
+                            Highcharts.defaultOptions.legend.title.style &&
+                            Highcharts.defaultOptions.legend.title.style.color
+                        ) || 'black'
+                    }
+                }
+            },
+
+            mapNavigation: {
+                enabled: false,
+                buttonOptions: {
+                    verticalAlign: 'bottom'
+                }
+            },
+
+            tooltip: {
+                backgroundColor: 'none',
+                borderWidth: 0,
+                shadow: false,
+                useHTML: true,
+                padding: 0,
+                pointFormat: '<span class="f32"><span class="flag {point.Country}">' +
+                    '</span></span> {point.Country}<br>' +
+                    '<span style="font-size:30px">{point.TotalConfirmed}</span>',
+                positioner: function () {
+                    return { x: 0, y: 250 };
+                }
+            },
+
+            colorAxis: {
+                min: 1,
+                max: 100000,
+                type: 'linear'
+            },
+
+            series: [{
+                type: 'map',
+                data: data['Countries'],
+                joinBy: ['name', 'Country'],
+                name: 'Total Confirmed',
+                minSize: 4,
+                maxSize: '12%',
+                states: {
+                    hover: {
+                        color: '#a4edba'
+                    }
+                }
+            }]
+        });
+    });
+
+</script>
+</body>
+</html>
+
+

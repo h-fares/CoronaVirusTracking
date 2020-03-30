@@ -1,8 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b863c7f7-48dc-432d-af77-d57e2badf676" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corona_map.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZqWhXjtEqp2UVR3h08vrUIpZRM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b863c7f7-48dc-432d-af77-d57e2badf676" name="Default Changelist" comment="" />
+      <created>1585567223447</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585567223447</updated>
+      <workItem from="1585567225106" duration="11003000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="795" y="111" width="800" height="684" key="#Deployment" timestamp="1585568264150">
+      <screen x="480" y="0" width="1440" height="900" />
+    </state>
+    <state x="795" y="111" width="800" height="684" key="#Deployment/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585568264150" />
+    <state x="764" y="26" width="862" height="854" key="CommitChangelistDialog2" timestamp="1585579764919">
+      <screen x="480" y="0" width="1440" height="900" />
+    </state>
+    <state x="764" y="26" width="862" height="854" key="CommitChangelistDialog2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585579764919" />
+    <state x="978" y="211" width="424" height="491" key="FileChooserDialogImpl" timestamp="1585567675082">
+      <screen x="480" y="0" width="1440" height="900" />
+    </state>
+    <state x="978" y="211" width="424" height="491" key="FileChooserDialogImpl/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585567675082" />
+    <state x="995" y="375" width="399" height="156" key="NewPhpFileDialog" timestamp="1585569230217">
+      <screen x="480" y="0" width="1440" height="900" />
+    </state>
+    <state x="995" y="375" width="399" height="156" key="NewPhpFileDialog/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585569230217" />
+    <state x="1045" y="350" width="492" height="207" key="WebDeployment.AddServerDialog.v.1" timestamp="1585567657381">
+      <screen x="480" y="0" width="1440" height="900" />
+    </state>
+    <state x="1045" y="350" width="492" height="207" key="WebDeployment.AddServerDialog.v.1/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585567657381" />
+    <state x="863" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1585569506987">
+      <screen x="480" y="0" width="1440" height="900" />
+    </state>
+    <state x="863" y="194" width="672" height="678" key="search.everywhere.popup/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585569506987" />
   </component>
 </project>
