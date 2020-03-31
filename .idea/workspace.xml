@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b863c7f7-48dc-432d-af77-d57e2badf676" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map.php" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585567223447</updated>
-      <workItem from="1585567225106" duration="18172000" />
+      <workItem from="1585567225106" duration="18786000" />
+      <workItem from="1585652227932" duration="523000" />
     </task>
     <task id="LOCAL-00001" summary="add Highmaps">
       <created>1585579781516</created>
@@ -79,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585601686702</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add mapNavigation">
+      <created>1585602666851</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585602666851</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,17 +95,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Highmaps" />
     <MESSAGE value="finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished" />
+    <MESSAGE value="add mapNavigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add mapNavigation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="795" y="111" width="800" height="684" key="#Deployment" timestamp="1585568264150">
       <screen x="480" y="0" width="1440" height="900" />
     </state>
     <state x="795" y="111" width="800" height="684" key="#Deployment/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585568264150" />
-    <state x="764" y="26" width="862" height="854" key="CommitChangelistDialog2" timestamp="1585601686561">
+    <state x="764" y="26" width="862" height="854" key="CommitChangelistDialog2" timestamp="1585602666710">
       <screen x="480" y="0" width="1440" height="900" />
     </state>
-    <state x="764" y="26" width="862" height="854" key="CommitChangelistDialog2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585601686561" />
+    <state x="764" y="26" width="862" height="854" key="CommitChangelistDialog2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585602666710" />
     <state x="978" y="211" width="424" height="491" key="FileChooserDialogImpl" timestamp="1585567675082">
       <screen x="480" y="0" width="1440" height="900" />
     </state>
@@ -107,14 +115,18 @@
       <screen x="480" y="0" width="1440" height="900" />
     </state>
     <state x="995" y="375" width="399" height="156" key="NewPhpFileDialog/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585569230217" />
-    <state x="795" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1585601688697">
+    <state x="795" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1585602668365">
       <screen x="480" y="0" width="1440" height="900" />
     </state>
-    <state x="795" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585601688697" />
+    <state x="795" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585602668365" />
     <state x="1045" y="350" width="492" height="207" key="WebDeployment.AddServerDialog.v.1" timestamp="1585567657381">
       <screen x="480" y="0" width="1440" height="900" />
     </state>
     <state x="1045" y="350" width="492" height="207" key="WebDeployment.AddServerDialog.v.1/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585567657381" />
+    <state x="856" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1585652234297">
+      <screen x="480" y="0" width="1440" height="900" />
+    </state>
+    <state x="856" y="277" key="com.intellij.ide.util.TipDialog/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585652234297" />
     <state x="863" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1585569506987">
       <screen x="480" y="0" width="1440" height="900" />
     </state>
