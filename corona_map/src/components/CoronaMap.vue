@@ -1,6 +1,6 @@
 <template>
     <div id="customers_maps">
-        <highcharts :options="chartOptions" ></highcharts>
+        <highmaps :options="chartOptions" ></highmaps>
     </div>
 </template>
 

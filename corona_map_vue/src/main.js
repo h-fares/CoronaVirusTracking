@@ -1,11 +1,11 @@
 import Vue from "vue";
-import HighChartsVue from "highcharts-vue";
+import Highcharts from 'highcharts-vue'
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
-import mapData from ''
 
-Vue.use(HighChartsVue);
+
+Vue.use(Highcharts)
 Vue.config.productionTip = false;
 
 new Vue({
