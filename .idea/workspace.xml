@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b863c7f7-48dc-432d-af77-d57e2badf676" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/corona_map_vue/src/js/worldmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corona_map_vue/src/components/ChartMap.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corona_map_vue/src/services/CountriesServices.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_map.php" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/corona_map_vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/corona_map_vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/js/worldmap.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/corona_map_vue/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/store/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/corona_map_vue/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Vue Single File Component" />
         <option value="HTML File" />
+        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -51,6 +56,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -59,6 +65,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -82,7 +89,13 @@
       <workItem from="1585681748649" duration="6284000" />
       <workItem from="1585851360913" duration="295000" />
       <workItem from="1585851677425" duration="4609000" />
-      <workItem from="1585865191702" duration="2886000" />
+      <workItem from="1585865191702" duration="3025000" />
+      <workItem from="1585868460336" duration="27000" />
+      <workItem from="1585907428333" duration="46000" />
+      <workItem from="1585929383733" duration="94000" />
+      <workItem from="1585929799067" duration="868000" />
+      <workItem from="1585930691063" duration="277000" />
+      <workItem from="1585930999508" duration="12197000" />
     </task>
     <task id="LOCAL-00001" summary="add Highmaps">
       <created>1585579781516</created>
@@ -126,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585855684411</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add highcharts to vue">
+      <created>1585868195309</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585868195316</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,31 +205,39 @@
       <screen x="480" y="0" width="1440" height="900" />
     </state>
     <state x="933" y="199" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585681952163" />
-    <state x="764" y="26" width="862" height="854" key="CommitChangelistDialog2" timestamp="1585855684069">
-      <screen x="480" y="0" width="1440" height="900" />
+    <state x="435" y="57" width="862" height="854" key="CommitChangelistDialog2" timestamp="1585868194413">
+      <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="764" y="26" width="862" height="854" key="CommitChangelistDialog2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585855684069" />
-    <state x="978" y="211" width="424" height="491" key="FileChooserDialogImpl" timestamp="1585567675082">
-      <screen x="480" y="0" width="1440" height="900" />
+    <state x="435" y="57" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1585868194413" />
+    <state x="544" y="211" width="424" height="491" key="FileChooserDialogImpl" timestamp="1585907471552">
+      <screen x="70" y="0" width="1370" height="900" />
     </state>
     <state x="978" y="211" width="424" height="491" key="FileChooserDialogImpl/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585567675082" />
+    <state x="544" y="211" key="FileChooserDialogImpl/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1585907471552" />
     <state x="995" y="375" width="399" height="156" key="NewPhpFileDialog" timestamp="1585569230217">
       <screen x="480" y="0" width="1440" height="900" />
     </state>
     <state x="995" y="375" width="399" height="156" key="NewPhpFileDialog/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585569230217" />
-    <state x="795" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1585855687323">
-      <screen x="480" y="0" width="1440" height="900" />
+    <state x="209" y="85" width="1022" height="737" key="SettingsEditor" timestamp="1585930969041">
+      <screen x="70" y="0" width="1370" height="900" />
+    </state>
+    <state x="209" y="85" width="1022" height="737" key="SettingsEditor/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1585930969041" />
+    <state x="475" y="245" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1585868199838">
+      <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="795" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585855687323" />
+    <state x="475" y="245" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1585868199838" />
     <state x="1045" y="350" width="492" height="207" key="WebDeployment.AddServerDialog.v.1" timestamp="1585567657381">
       <screen x="480" y="0" width="1440" height="900" />
     </state>
     <state x="1045" y="350" width="492" height="207" key="WebDeployment.AddServerDialog.v.1/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585567657381" />
-    <state x="553" y="351" key="com.intellij.ide.util.TipDialog" timestamp="1585865230159">
-      <screen x="70" y="27" width="1850" height="1053" />
+    <state x="428" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1585931001153">
+      <screen x="70" y="0" width="1370" height="900" />
     </state>
     <state x="856" y="277" key="com.intellij.ide.util.TipDialog/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585851697481" />
-    <state x="553" y="351" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1585865230159" />
+    <state x="428" y="277" key="com.intellij.ide.util.TipDialog/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1585931001153" />
+    <state x="553" y="351" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1585868476313" />
     <state x="968" y="370" width="454" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585653900777">
       <screen x="480" y="0" width="1440" height="900" />
     </state>

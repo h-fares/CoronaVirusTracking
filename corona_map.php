@@ -14,7 +14,7 @@ function drawCoronaMap()
                 p.Country = 'United States of America';
             }
         });
-
+console.log(data['Countries'])
         // Initiate the chart
         Highcharts.mapChart('customers_maps', {
 
