@@ -23,13 +23,13 @@ export default new Vuex.Store({
       CountriesServices.getCountries()
           .then(response => {
             response.data['Countries'].forEach(function (p) {
-              if(p.TotalConfirmed > 0) {
-                p.value = p.TotalConfirmed;
-              }
+              p.value = p.TotalConfirmed;
+              delete p.TotalConfirmed;
+              p.value = (p.value < 1 ? '0': p.value);
               if (p.Country === 'US') {
                 p.Country = 'United States of America';
               }
-            })
+            });
             commit('SET_COUNTRIES', response.data['Countries'])
             commit('SET_DATE', response.data['Date'])
           })

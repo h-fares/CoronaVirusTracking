@@ -1,5 +1,7 @@
 <template>
-  <chart-map></chart-map>
+  <div>
+    <chart-map></chart-map>
+  </div>
 </template>
 
 <script>

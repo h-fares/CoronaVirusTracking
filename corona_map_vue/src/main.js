@@ -1,4 +1,6 @@
 import Vue from "vue";
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import HighchartsVue from 'highcharts-vue'
 import Highcharts from "highcharts";
 import mapInit from "highcharts/modules/map";
