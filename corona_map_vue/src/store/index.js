@@ -8,7 +8,7 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     countries:[],
-    date: 'TEST'
+    date: ''
   },
   mutations: {
     SET_COUNTRIES(state, countries) {
@@ -23,17 +23,18 @@ export default new Vuex.Store({
       CountriesServices.getCountries()
           .then(response => {
             response.data['Countries'].forEach(function (p) {
-              p.value = p.TotalConfirmed;
-              delete p.TotalConfirmed;
+              if(p.TotalConfirmed > 0) {
+                p.value = p.TotalConfirmed;
+              }
               if (p.Country === 'US') {
                 p.Country = 'United States of America';
               }
             })
             commit('SET_COUNTRIES', response.data['Countries'])
-            //commit('SET_DATE', response.data['Date'])
+            commit('SET_DATE', response.data['Date'])
           })
           .catch(error => {
-            console.log('There was an error:', error.response)
+            console.log('There was an error:', error)
           })
     }
   },

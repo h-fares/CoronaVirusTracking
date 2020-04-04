@@ -1,7 +1,7 @@
 <template>
     <div>
         <highcharts :constructor-type="'mapChart'" :options="mapOptions" class="map"></highcharts>
-        <button @click="click()"> CLICK</button>
+        <div>Updated  {{ date | moment("from", "now") }}<br></div>
     </div>
 
 </template>
@@ -20,7 +20,7 @@ export default {
                         map: 'myMapName'
                     },
                     title: {
-                        text: ''
+                        text: 'Coronavirus Live Map'
                     },
                     credits: {
                         enabled: false
@@ -61,18 +61,14 @@ export default {
                         max: 100000,
                         type: 'logarithmic'
                     },
-
                     series: [{
                         type: 'map',
-                        data: this.countries,
-                        joinBy: ['name', 'Country'],
                         name: 'Country: ',
+                        joinBy: ['name', 'Country'],
+                        data: this.countries,
                         minSize: 4,
                         maxSize: '12%',
                         states: {
-                            hover: {
-                                color: '#a4edba'
-                            }
                         }
                     }]
                 }
