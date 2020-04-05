@@ -3,7 +3,10 @@
     <div v-if="country['value'] > 0" class="col-3 mb-5">
         <div class="card" style="width: 18rem;">
             <div class="card-body">
-                <h5 class="card-title">{{country['Country']}}</h5> <country-flag :country="country['CountryCode']"></country-flag>
+                <h5 class="card-title">{{country['Country']}}</h5>
+
+                <country-flag :country="country['CountryCode']"></country-flag>
+
                 <highcharts  :options="chartOptions" style="margin-bottom: 3%"></highcharts>
 
                 <p class="card-text m-2">Total <strong style="color: #dd4b39">Confirmed Cases</strong></p>
@@ -31,7 +34,7 @@
     export default {
         props:['country'],
         name: "Country",
-        created() {
+        created() { //Did that because the chart take an array like [{name: 'test', y: '10'}, {name: 'test1', y: '35'}, ......, ]
             this.newCountry.push({'name': 'Active','y': this.country['value'] - this.country['TotalDeaths'] - this.country['TotalRecovered']})
             this.newCountry.push({'name': 'Deaths','y': this.country['TotalDeaths']})
             this.newCountry.push({'name': 'Recovered','y': this.country['TotalRecovered']})
