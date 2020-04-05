@@ -2,6 +2,7 @@
     <div>
         <highcharts :constructor-type="'mapChart'" :options="mapOptions" class="map"></highcharts>
         <div>Updated  {{ date | moment("from", "now") }}<br></div>
+
     </div>
 
 </template>
@@ -43,7 +44,7 @@ export default {
                         shadow: false,
                         useHTML: true,
                         padding: 0,
-                        pointFormat: '<span style="font-size:20px">{point.Country}</span> <br>' +
+                        pointFormat: '<span style="font-size:20px">{point.Country} </span> <br> <img src="https://www.countryflags.io/{point.CountryCode}/shiny/32.png"> <br>' +
                             '<span style="font-size:10px">Total <strong>Confirmed Cases</strong></span> <br>' +
                             '<span style="font-size:20px">{point.value}</span><br>' +
                             '<span style="font-size:10px">New <strong>Confirmed Cases</strong></span> <br>' +
@@ -64,7 +65,7 @@ export default {
                     series: [{
                         type: 'map',
                         name: 'Country: ',
-                        joinBy: ['name', 'Country'],
+                        joinBy: ['iso-a2', 'CountryCode'],
                         data: this.countries,
                         minSize: 4,
                         maxSize: '12%',
@@ -73,16 +74,6 @@ export default {
                     }]
                 }
             }
-        },
-        data() {
-            return {
-
-            };
-        },
-        methods: {
-            click() {
-                console.log(this.countries)
-            }
         }
     };
 </script>
@@ -90,5 +81,6 @@ export default {
 <style scoped>
 .map {
     min-height: 500px;
+    margin: 2%;
 }
 </style>

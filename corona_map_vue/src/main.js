@@ -7,6 +7,9 @@ import mapInit from "highcharts/modules/map";
 import mapData from "@highcharts/map-collection/custom/world.geo.json";
 import moment from 'vue-moment'
 import 'nprogress/nprogress.css'
+import CountryFlag from 'vue-country-flag'
+
+
 
 
 import App from "./App.vue";
@@ -19,7 +22,7 @@ Highcharts.maps["myMapName"] = mapData;
 
 Vue.use(HighchartsVue);
 Vue.use(moment)
-
+Vue.component('country-flag', CountryFlag)
 Vue.config.productionTip = false;
 
 new Vue({
