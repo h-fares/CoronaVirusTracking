@@ -1,12 +1,21 @@
 <template>
-  <div id="app">
-    <nav id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/countries">Countries List</router-link>
-    </nav>
+  <div id="app" class="container-fluid">
+    <nav-bar></nav-bar>
     <router-view />
+    <div class="card-footer text-muted">
+      Developed by: Hani Fares
+    </div>
   </div>
 </template>
+
+<script>
+  import NavBar from "./components/NavBar";
+  export default {
+    components: {
+      NavBar
+    }
+  }
+</script>
 
 <style>
 #app {

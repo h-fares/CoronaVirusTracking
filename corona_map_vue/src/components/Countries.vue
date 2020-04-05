@@ -1,13 +1,12 @@
 <template>
-    <div class="container-fluid">
+    <div>
         <div class="card-footer pb-0 pt-3">
             <jw-pagination :items="countries" @changePage="onChangePage" :pageSize="15"></jw-pagination>
         </div>
-        <div class="row">
-            <country  v-for="country in paginatedCountry" :key="country['Country']" :country="country"></country>
-        </div>
-        <div class="alert alert-danger align-content-center" role="alert">
-            For you and your Family <strong>Please #StayHome</strong>
+        <div class="container">
+            <div class="row">
+                <country  v-for="country in paginatedCountry" :key="country['Country']" :country="country"></country>
+            </div>
         </div>
     </div>
 </template>
