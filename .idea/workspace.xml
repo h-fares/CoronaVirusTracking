@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b863c7f7-48dc-432d-af77-d57e2badf676" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map_vue/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map_vue/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +89,7 @@
       <workItem from="1585930999508" duration="18397000" />
       <workItem from="1585986918698" duration="14570000" />
       <workItem from="1586112788840" duration="9973000" />
-      <workItem from="1586160788556" duration="1284000" />
+      <workItem from="1586160788556" duration="2700000" />
     </task>
     <task id="LOCAL-00001" summary="add Highmaps">
       <created>1585579781516</created>
@@ -191,7 +189,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586122108632</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add icon and title">
+      <created>1586162090766</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1586162090766</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add icon and title">
+      <created>1586162128885</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1586162128885</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +257,8 @@
     <MESSAGE value="make the pie chart" />
     <MESSAGE value="add comment to Country.vue" />
     <MESSAGE value="finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish" />
+    <MESSAGE value="add icon and title" />
+    <option name="LAST_COMMIT_MESSAGE" value="add icon and title" />
   </component>
   <component name="WindowStateProjectService">
     <state x="795" y="111" width="800" height="684" key="#Deployment" timestamp="1585568264150">
@@ -261,11 +274,11 @@
     </state>
     <state x="933" y="199" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585681952163" />
     <state x="501" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1585998875605" />
-    <state x="340" y="26" width="862" height="854" key="CommitChangelistDialog2" timestamp="1586162090372">
+    <state x="340" y="26" width="862" height="854" key="CommitChangelistDialog2" timestamp="1586162128712">
       <screen x="70" y="0" width="1370" height="900" />
     </state>
     <state x="764" y="26" width="862" height="854" key="CommitChangelistDialog2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585855684069" />
-    <state x="340" y="26" width="862" height="854" key="CommitChangelistDialog2/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586162090372" />
+    <state x="340" y="26" width="862" height="854" key="CommitChangelistDialog2/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586162128712" />
     <state x="435" y="57" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1585868194413" />
     <state x="544" y="211" width="424" height="491" key="FileChooserDialogImpl" timestamp="1585907471552">
       <screen x="70" y="0" width="1370" height="900" />
@@ -280,11 +293,11 @@
       <screen x="70" y="0" width="1370" height="900" />
     </state>
     <state x="209" y="85" width="1022" height="737" key="SettingsEditor/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1585930969041" />
-    <state x="370" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1586162093352">
+    <state x="370" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1586162130316">
       <screen x="70" y="0" width="1370" height="900" />
     </state>
     <state x="795" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585855687323" />
-    <state x="370" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586162093352" />
+    <state x="370" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586162130316" />
     <state x="475" y="245" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1585868199838" />
     <state x="1045" y="350" width="492" height="207" key="WebDeployment.AddServerDialog.v.1" timestamp="1585567657381">
       <screen x="480" y="0" width="1440" height="900" />
