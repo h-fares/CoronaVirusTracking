@@ -47,14 +47,25 @@ which is built by [Kyle Redelinghuys](https://covid19api.com/).
           "NewRecovered": 0,
           "TotalRecovered": 10,
           "Date": "2020-04-05T06:37:00Z"
+        },
+        {
+          "Country": "Albania",
+          "CountryCode": "AL",
+          "Slug": "albania",
+          "NewConfirmed": 29,
+          "TotalConfirmed": 333,
+          "NewDeaths": 3,
+          "TotalDeaths": 20,
+          "NewRecovered": 10,
+          "TotalRecovered": 99,
+          "Date": "2020-04-05T06:37:00Z"
         }
-        ...
     ],
     "Date": "2020-04-05T06:37:00Z"
 }
 ```
 
 
-
-##### Feel Free to integrate this project in your dashboards, mobile apps or in other applications.
+### License:
+#### Feel Free to integrate this project in your dashboards, mobile apps or in other applications.
 > Let's help our community and **#StayHome**

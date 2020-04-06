@@ -1,31 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b863c7f7-48dc-432d-af77-d57e2badf676" name="Default Changelist" comment="add redirect">
+    <list default="true" id="b863c7f7-48dc-432d-af77-d57e2badf676" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_coronavirus_map/corona_map.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map/src/components/CoronaMap.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map/src/components/Countries.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map/src/components/Country.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map/src/components/NavBar.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map/src/store/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map/src/views/Home.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/simple_coronavirus_map/corona_map_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple_coronavirus_map/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +90,7 @@
       <workItem from="1585930999508" duration="18397000" />
       <workItem from="1585986918698" duration="14570000" />
       <workItem from="1586112788840" duration="9973000" />
-      <workItem from="1586160788556" duration="7814000" />
+      <workItem from="1586160788556" duration="7905000" />
     </task>
     <task id="LOCAL-00001" summary="add Highmaps">
       <created>1585579781516</created>
@@ -233,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586163502469</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add README.md">
+      <created>1586170650796</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1586170650796</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +274,8 @@
     <MESSAGE value="finish" />
     <MESSAGE value="add icon and title" />
     <MESSAGE value="add redirect" />
-    <option name="LAST_COMMIT_MESSAGE" value="add redirect" />
+    <MESSAGE value="add README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="add README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="795" y="111" width="800" height="684" key="#Deployment" timestamp="1585568264150">
@@ -305,11 +291,11 @@
     </state>
     <state x="933" y="199" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585681952163" />
     <state x="501" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1585998875605" />
-    <state x="340" y="26" width="862" height="854" key="CommitChangelistDialog2" timestamp="1586166445752">
+    <state x="340" y="26" width="862" height="854" key="CommitChangelistDialog2" timestamp="1586170732976">
       <screen x="70" y="0" width="1370" height="900" />
     </state>
     <state x="764" y="26" width="862" height="854" key="CommitChangelistDialog2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585855684069" />
-    <state x="340" y="26" width="862" height="854" key="CommitChangelistDialog2/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586166445752" />
+    <state x="340" y="26" width="862" height="854" key="CommitChangelistDialog2/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586170732976" />
     <state x="435" y="57" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1585868194413" />
     <state x="544" y="211" width="424" height="491" key="FileChooserDialogImpl" timestamp="1585907471552">
       <screen x="70" y="0" width="1370" height="900" />
@@ -324,11 +310,11 @@
       <screen x="70" y="0" width="1370" height="900" />
     </state>
     <state x="209" y="85" width="1022" height="737" key="SettingsEditor/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1585930969041" />
-    <state x="370" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1586163504625">
+    <state x="370" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1586170652763">
       <screen x="70" y="0" width="1370" height="900" />
     </state>
     <state x="795" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585855687323" />
-    <state x="370" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586163504625" />
+    <state x="370" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586170652763" />
     <state x="475" y="245" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1585868199838" />
     <state x="1045" y="350" width="492" height="207" key="WebDeployment.AddServerDialog.v.1" timestamp="1585567657381">
       <screen x="480" y="0" width="1440" height="900" />
