@@ -16,7 +16,7 @@ This Project has two folders:
     
     To setup this project please read the README.md in the **corona_map_vue** folder.
   
-##Style
+## Style
 * using **BOOTSTRAP**
 
 ## API Reference
