@@ -33,9 +33,6 @@ export default new Vuex.Store({
             commit('SET_COUNTRIES', response.data['Countries'])
             commit('SET_DATE', response.data['Date'])
           })
-          .catch(error => {
-            console.log('There was an error:', error)
-          })
     }
   },
   modules: {},
