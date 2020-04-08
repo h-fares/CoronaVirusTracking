@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="card-footer pb-0 pt-3">
-            <jw-pagination :items="cases.countries" @changePage="onChangePage" :pageSize="15"></jw-pagination>
+            <jw-pagination :items="countries.countries" @changePage="onChangePage" :pageSize="15"></jw-pagination>
         </div>
         <div class="container">
             <div class="row">
@@ -20,17 +20,17 @@
             Country
         },
         created() {
-            this.fetchCountries();
+            this.fetchAllCases();
         },
         computed: {
-            ...mapState(['cases'])
+            ...mapState(['countries', 'date', 'global'])
         },
         methods: {
             onChangePage(pageOfItems) {
                 // update page of items
                 this.paginatedCountry = pageOfItems;
             },
-            ...mapActions('cases', ['fetchCountries'])
+            ...mapActions('request', ['fetchAllCases'])
         },
         data() {
             return {
