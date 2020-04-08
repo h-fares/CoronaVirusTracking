@@ -1,20 +1,20 @@
 <template>
     <div>
         <highcharts :constructor-type="'mapChart'" :options="mapOptions" class="map"></highcharts>
-        <div>Updated  {{ date | moment("from", "now") }}<br></div>
+        <div>Updated  {{ cases.date | moment("from", "now") }}<br></div>
 
     </div>
 
 </template>
 
 <script>
-    import { mapState } from 'vuex'
+    import { mapState, mapActions } from 'vuex'
 export default {
         created() {
-            this.$store.dispatch('fetchCountries')
+            this.fetchCountries();
         },
         computed:{
-            ...mapState(['countries', 'date']),
+            ...mapState(['cases']),
             mapOptions() {
                 return {
                     chart: {
@@ -66,7 +66,7 @@ export default {
                         type: 'map',
                         name: 'Country: ',
                         joinBy: ['iso-a2', 'CountryCode'],
-                        data: this.countries,
+                        data: this.cases.countries,
                         minSize: 4,
                         maxSize: '12%',
                         states: {
@@ -74,6 +74,9 @@ export default {
                     }]
                 }
             }
+        },
+        methods: {
+            ...mapActions('cases', ['fetchCountries'])
         }
     };
 </script>

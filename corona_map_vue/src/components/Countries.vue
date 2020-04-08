@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="card-footer pb-0 pt-3">
-            <jw-pagination :items="countries" @changePage="onChangePage" :pageSize="15"></jw-pagination>
+            <jw-pagination :items="cases.countries" @changePage="onChangePage" :pageSize="15"></jw-pagination>
         </div>
         <div class="container">
             <div class="row">
@@ -12,7 +12,7 @@
 </template>
 
 <script>
-    import { mapState } from 'vuex'
+    import { mapState, mapActions } from 'vuex'
     import Country from "./Country";
     export default {
         name: "Countries",
@@ -20,16 +20,17 @@
             Country
         },
         created() {
-            this.$store.dispatch('fetchCountries')
+            this.fetchCountries();
         },
         computed: {
-            ...mapState(['countries', 'date'])
+            ...mapState(['cases'])
         },
         methods: {
             onChangePage(pageOfItems) {
                 // update page of items
                 this.paginatedCountry = pageOfItems;
-            }
+            },
+            ...mapActions('cases', ['fetchCountries'])
         },
         data() {
             return {
