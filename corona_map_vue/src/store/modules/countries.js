@@ -17,6 +17,7 @@ export const actions = {
             delete p.TotalConfirmed;
             p.value = (p.value < 1 ? '0': p.value);
         });
+        countries.sort(function(a, b){return b.value - a.value});
         commit('SET_COUNTRIES', countries)
     }
 }
