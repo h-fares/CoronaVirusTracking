@@ -68,4 +68,4 @@ which is built by [Kyle Redelinghuys](https://covid19api.com/).
 
 ### License:
 #### Feel Free to integrate this project in your dashboards, mobile apps or in other applications.
-> Let's help our community and **#StayHome**
+> Let's help our community and **#StayHome** HOME HOME
