@@ -44,16 +44,12 @@ export default {
                         shadow: false,
                         useHTML: true,
                         padding: 0,
-                        pointFormat: '<div style="  position: fixed; z-index: 10; background-color: rgba(0,0,0,0.25);">' +
-                            '<span style="font-size:1.25em">{point.Country} </span> <br> <img src="https://www.countryflags.io/{point.CountryCode}/shiny/32.png"> <br>' +
-                            '<span style="font-size:1em">Total <strong>Confirmed Cases</strong></span> <br>' +
-                            '<span style="font-size:1.25em">{point.value}</span><br>' +
-                            '<span style="font-size:1em">New <strong>Confirmed Cases</strong></span> <br>' +
-                            '<span style="font-size:1.25em">{point.NewConfirmed}</span><br>' +
-                            '<span style="font-size:1em">Total <strong style="color: red">Deaths</strong></span> <br>' +
-                            '<span style="font-size:1.25em">{point.TotalDeaths}</span><br>' +
-                            '<span style="font-size:1em">Total <strong style="color: green">Recovered</strong></span> <br>' +
-                            '<span style="font-size:1.25em">{point.TotalRecovered}</span></div>',
+                        pointFormat:
+                            '<span class="badge badge-info" style="font-size:1em">{point.Country} </span> <br> <img src="https://www.countryflags.io/{point.CountryCode}/shiny/32.png"> <br>' +
+                            '<span class="badge badge-dark" style="font-size:1em">Total <strong>Confirmed Cases</strong> {point.value} </span> <br>' +
+                            '<span class="badge badge-secondary" style="font-size:1em">New <strong>Confirmed Cases</strong> {point.NewConfirmed} </span> <br>' +
+                            '<span class="badge badge-danger" style="font-size:1em">Total <strong>Deaths</strong> {point.TotalDeaths} </span> <br>' +
+                            '<span class="badge badge-success" style="font-size:1em">Total <strong>Recovered</strong> {point.TotalRecovered} </span> <br>',
                         positioner: function () {
                             return {x: 0, y: 250};
                         }
