@@ -1,19 +1,17 @@
-
-
-export const namespaced = true
+export const namespaced = true;
 
 export const state = {
-    globalCases: []
-}
+  globalCases: []
+};
 
 export const mutations = {
-    SET_GLOBAL_CASES(state, globalCases) {
-        state.globalCases = globalCases
-    }
-}
+  SET_GLOBAL_CASES(state, globalCases) {
+    state.globalCases = globalCases;
+  }
+};
 
 export const actions = {
-    fetchGlobal({ commit }, global) {
-        commit('SET_GLOBAL_CASES', global)
-    }
-}
+  fetchGlobal({ commit }, global) {
+    commit("SET_GLOBAL_CASES", global);
+  }
+};

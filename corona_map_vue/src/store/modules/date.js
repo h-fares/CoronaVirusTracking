@@ -1,19 +1,17 @@
-
-
-export const namespaced = true
+export const namespaced = true;
 
 export const state = {
-    date: null
-}
+  date: null
+};
 
 export const mutations = {
-    SET_DATE(state, date) {
-        state.date = date
-    }
-}
+  SET_DATE(state, date) {
+    state.date = date;
+  }
+};
 
 export const actions = {
-    fetchDate({ commit }, date ) {
-        commit('SET_DATE', date)
-    }
-}
+  fetchDate({ commit }, date) {
+    commit("SET_DATE", date);
+  }
+};

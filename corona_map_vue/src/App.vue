@@ -9,12 +9,12 @@
 </template>
 
 <script>
-  import NavBar from "./components/NavBar";
-  export default {
-    components: {
-      NavBar
-    }
+import NavBar from "./components/NavBar";
+export default {
+  components: {
+    NavBar
   }
+};
 </script>
 
 <style>
@@ -36,6 +36,6 @@
 }
 
 #nav a.router-link-exact-active {
-  color: rgb(99,130,193);
+  color: rgb(99, 130, 193);
 }
 </style>
