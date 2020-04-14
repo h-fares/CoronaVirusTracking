@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b863c7f7-48dc-432d-af77-d57e2badf676" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/corona_map_vue/src/views/CountryShow.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corona_map_vue/summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corona_map_vue/src/components/MainFooter.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/corona_map_vue/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/components/Country.vue" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/components/Country.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/components/NavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/components/NavBar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/services/CountriesServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/services/CountriesServices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/components/ChartMap.vue" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/components/ChartMap.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/views/CountriesList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/views/CountriesList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -119,6 +118,7 @@
       <workItem from="1586595785621" duration="1172000" />
       <workItem from="1586596979434" duration="357000" />
       <workItem from="1586597357641" duration="108000" />
+      <workItem from="1586852778032" duration="4394000" />
     </task>
     <task id="LOCAL-00001" summary="add Highmaps">
       <created>1585579781516</created>
@@ -353,11 +353,11 @@
     </state>
     <state x="933" y="199" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585681952163" />
     <state x="501" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1585998875605" />
-    <state x="340" y="26" width="862" height="854" key="CommitChangelistDialog2" timestamp="1586350337047">
+    <state x="340" y="26" width="862" height="854" key="CommitChangelistDialog2" timestamp="1586603545183">
       <screen x="70" y="0" width="1370" height="900" />
     </state>
     <state x="764" y="26" width="862" height="854" key="CommitChangelistDialog2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585855684069" />
-    <state x="340" y="26" width="862" height="854" key="CommitChangelistDialog2/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586350337047" />
+    <state x="340" y="26" width="862" height="854" key="CommitChangelistDialog2/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586603545183" />
     <state x="435" y="57" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1585868194413" />
     <state x="544" y="211" width="424" height="491" key="FileChooserDialogImpl" timestamp="1586449483388">
       <screen x="70" y="0" width="1370" height="900" />
@@ -368,27 +368,27 @@
       <screen x="480" y="0" width="1440" height="900" />
     </state>
     <state x="995" y="375" width="399" height="156" key="NewPhpFileDialog/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585569230217" />
-    <state x="250" y="108" width="1022" height="737" key="SettingsEditor" timestamp="1586601339596">
+    <state x="204" y="120" width="1022" height="737" key="SettingsEditor" timestamp="1586853654508">
       <screen x="70" y="0" width="1370" height="900" />
     </state>
     <state x="195" y="1002" key="SettingsEditor/0.900.1920.1080/70.0.1370.900@0.900.1920.1080" timestamp="1586595765821" />
-    <state x="250" y="108" width="1022" height="737" key="SettingsEditor/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586601339596" />
-    <state x="370" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1586350340288">
+    <state x="204" y="120" width="1022" height="737" key="SettingsEditor/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586853654508" />
+    <state x="370" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1586603549099">
       <screen x="70" y="0" width="1370" height="900" />
     </state>
     <state x="795" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585855687323" />
-    <state x="370" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586350340288" />
+    <state x="370" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586603549099" />
     <state x="475" y="245" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1585868199838" />
     <state x="1045" y="350" width="492" height="207" key="WebDeployment.AddServerDialog.v.1" timestamp="1585567657381">
       <screen x="480" y="0" width="1440" height="900" />
     </state>
     <state x="1045" y="350" width="492" height="207" key="WebDeployment.AddServerDialog.v.1/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585567657381" />
-    <state x="428" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1586597358447">
+    <state x="428" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1586853213019">
       <screen x="70" y="0" width="1370" height="900" />
     </state>
     <state x="856" y="277" key="com.intellij.ide.util.TipDialog/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585851697481" />
     <state x="502" y="1232" key="com.intellij.ide.util.TipDialog/0.900.1920.1080/70.0.1370.900@0.900.1920.1080" timestamp="1586595785662" />
-    <state x="428" y="277" key="com.intellij.ide.util.TipDialog/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586597358447" />
+    <state x="428" y="277" key="com.intellij.ide.util.TipDialog/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586853213019" />
     <state x="553" y="351" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1585868476313" />
     <state x="968" y="370" width="454" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585653900777">
       <screen x="480" y="0" width="1440" height="900" />
