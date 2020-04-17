@@ -3,36 +3,21 @@
     <div class="card" style="width: 18rem;">
       <div class="card-body">
         <p class="card-text m-2">
-          <strong style="color: #dd4b39">All Confirmed Cases</strong>
-        </p>
-        <p class="card-text m-2">{{ country["value"] }}</p>
-        <p class="card-text m-2">
-          <strong style="color: rgb(124, 181, 236)">Active Cases</strong>
-        </p>
-        <p class="card-text m-2">
-          {{
+          <span class="badge badge-danger" style="font-size:1em">All <strong>Confirmed Cases</strong> {{ country["value"] }} </span> <br><br>
+          <span class="badge badge-info" style="font-size:1em"> <strong>Active</strong>
+            {{
             country["value"] -
               country["TotalDeaths"] -
               country["TotalRecovered"]
-          }}
+          }} </span> <br><br>
+          <span class="badge badge-dark" style="font-size:1em"> <strong>Death</strong> {{ country["TotalDeaths"] }} </span> <br><br>
+          <span class="badge badge-success" style="font-size:1em"> <strong>Recovered</strong> {{ country["TotalRecovered"] }} </span> <br><br>
+
+
+          <span class="badge badge-info" style="font-size:1em">NEW <strong>Confirmed Cases</strong>{{ country["NewConfirmed"] }}</span> <br><br>
+          <span class="badge badge-dark" style="font-size:1em"> <strong>Death</strong> {{ country["NewDeaths"] }} </span> <br><br>
+          <span class="badge badge-success" style="font-size:1em"> <strong>Recovered</strong> {{ country["NewRecovered"] }} </span> <br><br>
         </p>
-        <p class="card-text m-2"><strong>Deaths</strong></p>
-        <p class="card-text m-2">{{ country["TotalDeaths"] }}</p>
-        <p class="card-text m-2">
-          <strong style="color: rgb(144, 237, 125)">Recovered</strong>
-        </p>
-        <p class="card-text m-2">{{ country["TotalRecovered"] }}</p>
-        <h6 class="card-subtitle mb-2 text-muted">NEW</h6>
-        <p class="card-text m-2">
-          <strong style="color: #dd4b39">Confirmed Cases</strong>
-        </p>
-        <p class="card-text m-2">{{ country["NewConfirmed"] }}</p>
-        <p class="card-text m-2"><strong>Death Cases</strong></p>
-        <p class="card-text m-2">{{ country["NewDeaths"] }}</p>
-        <p class="card-text m-2">
-          <strong style="color: rgb(144, 237, 125)">Recovered Cases</strong>
-        </p>
-        <p class="card-text m-2">{{ country["TotalRecovered"] }}</p>
       </div>
     </div>
   </div>
