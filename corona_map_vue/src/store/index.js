@@ -14,6 +14,6 @@ export default new Vuex.Store({
     request,
     countries,
     date,
-    global,
+    global
   }
 });
