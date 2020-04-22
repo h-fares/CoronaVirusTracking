@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b863c7f7-48dc-432d-af77-d57e2badf676" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b863c7f7-48dc-432d-af77-d57e2badf676" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -27,7 +41,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Development" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,7 +58,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -112,6 +125,13 @@
       <workItem from="1586595785621" duration="1172000" />
       <workItem from="1586596979434" duration="357000" />
       <workItem from="1586597357641" duration="108000" />
+      <workItem from="1587058363730" duration="4242000" />
+      <workItem from="1587122706381" duration="161000" />
+      <workItem from="1587201162643" duration="562000" />
+      <workItem from="1587215765403" duration="585000" />
+      <workItem from="1587486322689" duration="1406000" />
+      <workItem from="1587542428630" duration="1003000" />
+      <workItem from="1587556800328" duration="2526000" />
     </task>
     <task id="LOCAL-00001" summary="add Highmaps">
       <created>1585579781516</created>
@@ -267,11 +287,18 @@
       <option name="project" value="LOCAL" />
       <updated>1586350337244</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="change InfoCountry.vue">
+      <created>1587108285161</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1587108285161</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -303,11 +330,12 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_TABS">
-      <set>
-        <option value="1" />
-      </set>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Highmaps" />
@@ -326,7 +354,8 @@
     <MESSAGE value="add README.md" />
     <MESSAGE value="add store/modules" />
     <MESSAGE value="make a profi Store Modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="make a profi Store Modules" />
+    <MESSAGE value="change InfoCountry.vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="change InfoCountry.vue" />
   </component>
   <component name="WindowStateProjectService">
     <state x="795" y="111" width="800" height="684" key="#Deployment" timestamp="1585568264150">
@@ -342,17 +371,23 @@
     </state>
     <state x="933" y="199" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585681952163" />
     <state x="501" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1585998875605" />
-    <state x="340" y="26" width="862" height="854" key="CommitChangelistDialog2" timestamp="1586350337047">
+    <state x="340" y="26" width="862" height="854" key="CommitChangelistDialog2" timestamp="1587108284725">
       <screen x="70" y="0" width="1370" height="900" />
     </state>
     <state x="764" y="26" width="862" height="854" key="CommitChangelistDialog2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585855684069" />
-    <state x="340" y="26" width="862" height="854" key="CommitChangelistDialog2/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586350337047" />
+    <state x="340" y="26" width="862" height="854" key="CommitChangelistDialog2/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1587108284725" />
     <state x="435" y="57" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1585868194413" />
-    <state x="544" y="211" width="424" height="491" key="FileChooserDialogImpl" timestamp="1586449483388">
-      <screen x="70" y="0" width="1370" height="900" />
+    <state x="710" y="274" width="424" height="492" key="FileChooserDialogImpl" timestamp="1587487737742">
+      <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="978" y="211" width="424" height="491" key="FileChooserDialogImpl/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585567675082" />
-    <state x="544" y="211" width="424" height="491" key="FileChooserDialogImpl/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586449483388" />
+    <state x="544" y="211" width="424" height="491" key="FileChooserDialogImpl/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1587109386034" />
+    <state x="2584" y="253" key="FileChooserDialogImpl/70.27.1850.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587201722504" />
+    <state x="710" y="274" width="424" height="492" key="FileChooserDialogImpl/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1587487737742" />
+    <state x="35" y="0" width="1360" height="900" key="MergeDialog" timestamp="1587058514605">
+      <screen x="70" y="0" width="1370" height="900" />
+    </state>
+    <state x="35" y="0" width="1360" height="900" key="MergeDialog/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1587058514605" />
     <state x="995" y="375" width="399" height="156" key="NewPhpFileDialog" timestamp="1585569230217">
       <screen x="480" y="0" width="1440" height="900" />
     </state>
@@ -362,11 +397,11 @@
     </state>
     <state x="195" y="1002" key="SettingsEditor/0.900.1920.1080/70.0.1370.900@0.900.1920.1080" timestamp="1586595765821" />
     <state x="250" y="108" width="1022" height="737" key="SettingsEditor/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586597464682" />
-    <state x="370" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1586350340288">
+    <state x="370" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1587108287398">
       <screen x="70" y="0" width="1370" height="900" />
     </state>
     <state x="795" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585855687323" />
-    <state x="370" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586350340288" />
+    <state x="370" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1587108287398" />
     <state x="475" y="245" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1585868199838" />
     <state x="1045" y="350" width="492" height="207" key="WebDeployment.AddServerDialog.v.1" timestamp="1585567657381">
       <screen x="480" y="0" width="1440" height="900" />
@@ -383,10 +418,18 @@
       <screen x="480" y="0" width="1440" height="900" />
     </state>
     <state x="968" y="370" width="454" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585653900777" />
+    <state x="484" y="65" width="461" height="777" key="git4idea.branch.GitSmartOperationDialog" timestamp="1587058505332">
+      <screen x="70" y="0" width="1370" height="900" />
+    </state>
+    <state x="484" y="65" width="461" height="777" key="git4idea.branch.GitSmartOperationDialog/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1587058505332" />
     <state x="531" y="339" width="680" height="321" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1586596712655">
       <screen x="70" y="0" width="1370" height="900" />
     </state>
     <state x="531" y="339" width="680" height="321" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586596712655" />
+    <state x="384" y="199" key="run.anything.popup" timestamp="1587107694456">
+      <screen x="70" y="0" width="1370" height="900" />
+    </state>
+    <state x="384" y="199" key="run.anything.popup/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1587107694456" />
     <state x="434" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1586597447521">
       <screen x="70" y="0" width="1370" height="900" />
     </state>

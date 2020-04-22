@@ -11,4 +11,17 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+#nav {
+  padding: 30px;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2a54aa;
+}
+
+#nav a.router-link-exact-active {
+  color: rgb(99, 130, 193);
+}
+</style>

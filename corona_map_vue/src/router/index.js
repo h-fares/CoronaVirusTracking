@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import CountriesList from "../views/CountriesList";
+import CountryShow from "../views/CountryShow";
 
 Vue.use(VueRouter);
 
@@ -15,6 +16,12 @@ const routes = [
     path: "/countries",
     name: "Countries-list",
     component: CountriesList
+  },
+  {
+    path: "/country/:countryCode",
+    name: "country-show",
+    component: CountryShow,
+    props: true
   }
 ];
 
