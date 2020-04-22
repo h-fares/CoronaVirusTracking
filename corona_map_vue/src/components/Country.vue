@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="country['value'] > 0" class="col-3 mb-5">
+    <div v-if="country['value'] > 0" class="col-3 mb-4 mt-2">
       <div class="card" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title">{{ country["Country"] }}</h5>

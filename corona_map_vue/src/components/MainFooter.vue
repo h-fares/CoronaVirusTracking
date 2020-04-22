@@ -4,7 +4,7 @@
       <div class="alert alert-danger align-content-center" role="alert">
         For you and your Family <strong>Please #StayHome</strong>
       </div>
-      <div class="card-footer text-right text-muted">
+      <div class="card-footer text-center text-muted">
         Developed by: Hani Fares
       </div>
     </footer>
@@ -21,6 +21,6 @@ export default {
 footer {
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 98%;
 }
 </style>

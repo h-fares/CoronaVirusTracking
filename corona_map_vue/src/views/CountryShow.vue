@@ -2,9 +2,11 @@
   <div class="container-fluid">
     <h4 class="card-title">{{ country["Country"] }}</h4>
     <country-flag :country="country['CountryCode']"></country-flag>
+    <div class="container">
     <div class="row">
-      <InfoCountry :country="country"></InfoCountry>
-      <CountryPieChart :country="country"></CountryPieChart>
+      <InfoCountry  :country="country"></InfoCountry>
+      <CountryPieChart  :country="country"></CountryPieChart>
+    </div>
     </div>
   </div>
 </template>

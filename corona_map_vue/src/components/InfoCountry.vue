@@ -1,6 +1,6 @@
 <template>
-  <div v-if="country['value'] > 0" class="col-3 mb-5">
-    <div class="card" style="width: 18rem;">
+  <div class="col">
+    <div class="card mb-4 mt-4" style="width: 18rem;height: 25rem">
       <div class="card-body">
         <p class="card-text m-2">
           <span class="badge badge-danger" style="font-size:1em">All <strong>Confirmed Cases</strong> {{ country["value"] }} </span> <br><br>

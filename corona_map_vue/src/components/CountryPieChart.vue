@@ -1,10 +1,9 @@
 <template>
-  <div v-if="country['value'] > 0" class="col-3 mb-5">
-    <div class="card" style="width: 18rem;">
+  <div class="col">
+    <div class="card mb-4 mt-4" style="width: 18rem; height: 25rem" >
       <div class="card-body">
         <highcharts
           :options="chartOptions"
-          style="margin-bottom: 3%"
         ></highcharts>
       </div>
     </div>
@@ -37,7 +36,8 @@ export default {
           plotBackgroundColor: null,
           plotBorderWidth: null,
           plotShadow: false,
-          type: "pie"
+          type: "pie",
+          height: 100+ '%'
         },
         title: {
           text: "All Cases Diagram"
