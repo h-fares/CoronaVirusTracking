@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b863c7f7-48dc-432d-af77-d57e2badf676" name="Default Changelist" comment="" />
+    <list default="true" id="b863c7f7-48dc-432d-af77-d57e2badf676" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/services/CountriesServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/services/CountriesServices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/store/modules/countries.js" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/store/modules/countries.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,6 +136,7 @@
       <workItem from="1587486322689" duration="1406000" />
       <workItem from="1587542428630" duration="1003000" />
       <workItem from="1587556800328" duration="2526000" />
+      <workItem from="1587982754840" duration="1438000" />
     </task>
     <task id="LOCAL-00001" summary="add Highmaps">
       <created>1585579781516</created>
@@ -414,10 +419,11 @@
     <state x="502" y="1232" key="com.intellij.ide.util.TipDialog/0.900.1920.1080/70.0.1370.900@0.900.1920.1080" timestamp="1586595785662" />
     <state x="428" y="277" key="com.intellij.ide.util.TipDialog/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586597358447" />
     <state x="553" y="351" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1585868476313" />
-    <state x="968" y="370" width="454" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585653900777">
-      <screen x="480" y="0" width="1440" height="900" />
+    <state x="2571" y="444" width="454" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587982776495">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="968" y="370" width="454" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585653900777" />
+    <state x="2571" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/70.27.1850.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587982776495" />
     <state x="484" y="65" width="461" height="777" key="git4idea.branch.GitSmartOperationDialog" timestamp="1587058505332">
       <screen x="70" y="0" width="1370" height="900" />
     </state>
