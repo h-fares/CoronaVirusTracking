@@ -15,11 +15,17 @@ export const actions = {
     countries.forEach(function(p) {
       p.value = p.TotalConfirmed;
       delete p.TotalConfirmed;
-      p.value = p.value < 1 ? "0" : p.value;
+      p.value = p.value < 1 ? p = null : p.value;
     });
     countries.sort(function(a, b) {
       return b.value - a.value;
     });
     commit("SET_COUNTRIES", countries);
+  }
+};
+
+export const getters = {
+  getCountryByCode: (state) => (code) => {
+    return state.countries.find(countries => countries.CountryCode === code)
   }
 };

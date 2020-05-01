@@ -5,6 +5,9 @@
         <highcharts
           :options="chartOptions"
         ></highcharts>
+        <span class="badge " style="font-size:1em; background-color: rgb(124, 181, 236); color: #ffffff"> <strong>Active</strong></span> <br><br>
+        <span class="badge badge-success" style="font-size:1em"> <strong>Recovered</strong></span> <br><br>
+        <span class="badge badge-dark" style="font-size:1em"> <strong>Death</strong></span>
       </div>
     </div>
   </div>

@@ -22,6 +22,10 @@ const routes = [
     name: "country-show",
     component: CountryShow,
     props: true
+  },
+  {
+    path: "*",
+    redirect: '/'
   }
 ];
 
@@ -30,5 +34,5 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes
 });
-router.replace({ path: "/", redirect: "*" });
+
 export default router;
