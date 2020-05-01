@@ -19,7 +19,7 @@
           <router-link
             :to="{
               name: 'country-show',
-              params: { countryCode: country.CountryCode, country: country }
+              params: { countryCode: country.CountryCode }
             }"
             >More Information</router-link
           >
