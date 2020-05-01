@@ -23,3 +23,9 @@ export const actions = {
     commit("SET_COUNTRIES", countries);
   }
 };
+
+export const getters = {
+  getCountryByCode: (state) => (code) => {
+    return state.countries.find(countries => countries.CountryCode === code)
+  }
+};

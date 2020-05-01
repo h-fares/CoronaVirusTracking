@@ -4,7 +4,7 @@
       <div class="card-body">
         <p class="card-text m-2">
           <span class="badge badge-danger" style="font-size:1em">All <strong>Confirmed Cases</strong> {{ country["value"] }} </span> <br><br>
-          <span class="badge badge-info" style="font-size:1em"> <strong>Active</strong>
+          <span class="badge " style="font-size:1em; background-color: rgb(124, 181, 236); color: #ffffff"> <strong>Active</strong>
             {{
             country["value"] -
               country["TotalDeaths"] -
