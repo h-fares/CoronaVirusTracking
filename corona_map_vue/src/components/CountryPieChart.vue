@@ -18,7 +18,7 @@ export default {
   name: "CountryPieChart",
   props:['country'],
   created() {
-    //Did that because the chart take an array like [{name: 'test', y: '10'}, {name: 'test1', y: '35'}, ......, ]
+    //Did that because the chart take an array like [{name: 'test', y: '10'}, {name: 'test1', y: '35'}, ............., ]
     this.newCountry.push({
       name: "Active",
       y:
