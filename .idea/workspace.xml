@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b863c7f7-48dc-432d-af77-d57e2badf676" name="Default Changelist" comment="">
+    <list default="true" id="b863c7f7-48dc-432d-af77-d57e2badf676" name="Default Changelist" comment="add shadows to cards">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/components/Country.vue" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/components/Country.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/components/CountryPieChart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/components/CountryPieChart.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/components/InfoCountry.vue" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/components/InfoCountry.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/views/CountryShow.vue" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/views/CountryShow.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/components/NavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/components/NavBar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/store/modules/countries.js" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/store/modules/countries.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +104,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Sechstes Semester/Advanced Software/streaming-server/media-streaming-client" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -342,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587984234573</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add shadows to cards">
+      <created>1588419670600</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1588419670601</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,16 +410,18 @@
     <MESSAGE value="make a profi Store Modules" />
     <MESSAGE value="change InfoCountry.vue" />
     <MESSAGE value="edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit" />
+    <MESSAGE value="add shadows to cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="add shadows to cards" />
   </component>
   <component name="WindowStateProjectService">
     <state x="795" y="111" width="800" height="684" key="#Deployment" timestamp="1585568264150">
       <screen x="480" y="0" width="1440" height="900" />
     </state>
     <state x="795" y="111" width="800" height="684" key="#Deployment/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585568264150" />
-    <state x="1649" y="421" width="261" height="214" key="#ESLint" timestamp="1588351307485">
-      <screen x="70" y="27" width="1850" height="1053" />
+    <state x="1649" y="404" width="261" height="214" key="#ESLint" timestamp="1588449254645">
+      <screen x="70" y="0" width="1850" height="1080" />
     </state>
+    <state x="1649" y="404" key="#ESLint/0.1080.1920.1080/70.0.1850.1080@70.0.1850.1080" timestamp="1588449254645" />
     <state x="1649" y="421" width="261" height="214" key="#ESLint/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1588351307485" />
     <state x="315" y="111" width="800" height="684" key="#Inspections" timestamp="1585998160731">
       <screen x="70" y="0" width="1370" height="900" />
@@ -435,9 +443,10 @@
     <state x="340" y="26" width="862" height="854" key="CommitChangelistDialog2/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1587108284725" />
     <state x="2298" y="31" key="CommitChangelistDialog2/70.27.1850.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587984234273" />
     <state x="435" y="57" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1585868194413" />
-    <state x="2584" y="253" width="424" height="492" key="FileChooserDialogImpl" timestamp="1588057723907">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="710" y="253" width="424" height="492" key="FileChooserDialogImpl" timestamp="1588448168712">
+      <screen x="70" y="0" width="1850" height="1080" />
     </state>
+    <state x="710" y="253" key="FileChooserDialogImpl/0.1080.1920.1080/70.0.1850.1080@70.0.1850.1080" timestamp="1588448168712" />
     <state x="978" y="211" width="424" height="491" key="FileChooserDialogImpl/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585567675082" />
     <state x="544" y="211" width="424" height="491" key="FileChooserDialogImpl/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1587109386034" />
     <state x="2584" y="253" width="424" height="492" key="FileChooserDialogImpl/70.27.1850.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1588057723907" />
@@ -456,9 +465,10 @@
     </state>
     <state x="195" y="1002" key="SettingsEditor/0.900.1920.1080/70.0.1370.900@0.900.1920.1080" timestamp="1586595765821" />
     <state x="250" y="108" width="1022" height="737" key="SettingsEditor/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586597464682" />
-    <state x="2340" y="223" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1587984236251">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="475" y="223" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1588419672404">
+      <screen x="70" y="0" width="1850" height="1080" />
     </state>
+    <state x="475" y="223" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/70.0.1850.1080@70.0.1850.1080" timestamp="1588419672404" />
     <state x="795" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585855687323" />
     <state x="370" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1587108287398" />
     <state x="2340" y="223" key="Vcs.Push.Dialog.v2/70.27.1850.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587984236251" />

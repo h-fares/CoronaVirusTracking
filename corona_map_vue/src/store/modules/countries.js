@@ -15,6 +15,8 @@ export const actions = {
     countries.forEach(function(p) {
       p.value = p.TotalConfirmed;
       delete p.TotalConfirmed;
+      p.name = p.Country;
+
       p.value = p.value < 1 ? p = null : p.value;
     });
     countries.sort(function(a, b) {

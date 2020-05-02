@@ -13,6 +13,7 @@ import JwPagination from "jw-vue-pagination";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
+import Dropdown from 'vue-simple-search-dropdown';
 
 mapInit(Highcharts);
 
@@ -22,6 +23,7 @@ Vue.use(HighchartsVue);
 Vue.use(moment);
 Vue.component("country-flag", CountryFlag);
 Vue.component("jw-pagination", JwPagination);
+Vue.component("dropdown", Dropdown);
 Vue.config.productionTip = false;
 
 new Vue({
