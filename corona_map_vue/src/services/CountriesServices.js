@@ -1,7 +1,7 @@
 import axios from "axios";
 import NProgress from "nprogress";
 const apiClient = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: "https://api.covid19api.com",
   withCredentials: false,
   headers: {
     Accept: "application/json",
