@@ -1,6 +1,6 @@
 <template>
   <div class="col">
-    <div class="card mb-4 mt-4" style="width: 18rem; height: 25rem" >
+    <div class="card mb-4 mt-4 shadow p-3 mb-5 bg-white rounded" style="width: 18rem; height: 27rem" >
       <div class="card-body">
         <highcharts
           :options="chartOptions"
@@ -18,7 +18,7 @@ export default {
   name: "CountryPieChart",
   props:['country'],
   created() {
-    //Did that because the chart take an array like [{name: 'test', y: '10'}, {name: 'test1', y: '35'}, ......, ]
+    //Did that because the chart take an array like [{name: 'test', y: '10'}, {name: 'test1', y: '35'}, ............., ]
     this.newCountry.push({
       name: "Active",
       y:
