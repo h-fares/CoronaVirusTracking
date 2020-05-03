@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-
-
     <list default="true" id="b863c7f7-48dc-432d-af77-d57e2badf676" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/services/CountriesServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/services/CountriesServices.js" afterDir="false" />
-
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/components/NavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/components/NavBar.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
