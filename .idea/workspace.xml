@@ -19,16 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b863c7f7-48dc-432d-af77-d57e2badf676" name="Default Changelist" comment="">
+
+    <list default="true" id="b863c7f7-48dc-432d-af77-d57e2badf676" name="Default Changelist" comment="prepare to merge in master">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/components/NavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/components/NavBar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_map_vue/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <execution />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -114,7 +115,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -170,6 +171,10 @@
       <workItem from="1588335569261" duration="629000" />
       <workItem from="1588344858721" duration="6242000" />
       <workItem from="1588353350649" duration="605000" />
+      <workItem from="1588409397489" duration="550000" />
+      <workItem from="1588412910998" duration="76000" />
+      <workItem from="1588413012041" duration="30000" />
+      <workItem from="1588413628605" duration="1434000" />
     </task>
     <task id="LOCAL-00001" summary="add Highmaps">
       <created>1585579781516</created>
@@ -430,9 +435,10 @@
       <screen x="70" y="0" width="1370" height="900" />
     </state>
     <state x="315" y="111" width="800" height="684" key="#Inspections/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1585998160731" />
-    <state x="1693" y="367" width="217" height="316" key="#Notifications" timestamp="1588348204038">
-      <screen x="70" y="27" width="1850" height="1053" />
+    <state x="1693" y="349" width="227" height="325" key="#Notifications" timestamp="1588409231737">
+      <screen x="70" y="0" width="1850" height="1080" />
     </state>
+    <state x="1693" y="349" width="227" height="325" key="#Notifications/70.0.1850.1080/1920.0.1920.1080@70.0.1850.1080" timestamp="1588409231737" />
     <state x="1693" y="367" width="217" height="316" key="#Notifications/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1588348204038" />
     <state x="501" y="199" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585998875605">
       <screen x="70" y="0" width="1370" height="900" />
@@ -467,13 +473,17 @@
       <screen x="480" y="0" width="1440" height="900" />
     </state>
     <state x="995" y="375" width="399" height="156" key="NewPhpFileDialog/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585569230217" />
-    <state x="250" y="108" width="1022" height="737" key="SettingsEditor" timestamp="1586597464682">
-      <screen x="70" y="0" width="1370" height="900" />
+    <state x="313" y="130" width="992" height="737" key="SettingsEditor" timestamp="1588409948838">
+      <screen x="70" y="0" width="1850" height="1080" />
     </state>
+    <state x="313" y="130" width="992" height="737" key="SettingsEditor/0.1080.1920.1080/70.0.1850.1080@70.0.1850.1080" timestamp="1588409948838" />
     <state x="195" y="1002" key="SettingsEditor/0.900.1920.1080/70.0.1370.900@0.900.1920.1080" timestamp="1586595765821" />
     <state x="250" y="108" width="1022" height="737" key="SettingsEditor/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586597464682" />
-    <state x="475" y="223" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1588419672404">
-      <screen x="70" y="0" width="1850" height="1080" />
+
+    <state x="313" y="130" width="992" height="737" key="SettingsEditor/70.0.1850.1080/1920.0.1920.1080@70.0.1850.1080" timestamp="1588409163459" />
+    <state x="2340" y="223" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1587984236251">
+      <screen x="1920" y="0" width="1920" height="1080" />
+
     </state>
     <state x="475" y="223" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/70.0.1850.1080@70.0.1850.1080" timestamp="1588419672404" />
     <state x="795" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585855687323" />
@@ -484,6 +494,10 @@
       <screen x="480" y="0" width="1440" height="900" />
     </state>
     <state x="1045" y="350" width="492" height="207" key="WebDeployment.AddServerDialog.v.1/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585567657381" />
+    <state x="840" y="382" width="230" height="322" key="cloudConfig.SelfSettingsDialog" timestamp="1588413693559">
+      <screen x="70" y="0" width="1850" height="1080" />
+    </state>
+    <state x="840" y="382" width="230" height="322" key="cloudConfig.SelfSettingsDialog/0.1080.1920.1080/70.0.1850.1080@70.0.1850.1080" timestamp="1588413693559" />
     <state x="428" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1586597358447">
       <screen x="70" y="0" width="1370" height="900" />
     </state>
@@ -510,11 +524,12 @@
     </state>
     <state x="494" y="239" key="run.anything.popup/0.1080.1920.1080/70.0.1850.1080@70.0.1850.1080" timestamp="1588500401860" />
     <state x="384" y="199" key="run.anything.popup/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1587107694456" />
-    <state x="434" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1586597447521">
-      <screen x="70" y="0" width="1370" height="900" />
+    <state x="562" y="233" width="908" height="814" key="search.everywhere.popup" timestamp="1588409003079">
+      <screen x="70" y="0" width="1850" height="1080" />
     </state>
     <state x="863" y="194" width="672" height="678" key="search.everywhere.popup/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585569506987" />
     <state x="434" y="194" width="672" height="678" key="search.everywhere.popup/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586597447521" />
+    <state x="562" y="233" width="908" height="814" key="search.everywhere.popup/70.0.1850.1080/1920.0.1920.1080@70.0.1850.1080" timestamp="1588409003079" />
     <state x="445" y="342" width="540" height="223" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1586166214355">
       <screen x="70" y="0" width="1370" height="900" />
     </state>
