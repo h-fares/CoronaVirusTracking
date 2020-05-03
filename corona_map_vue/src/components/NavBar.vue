@@ -57,22 +57,15 @@
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0" v-if="this.path === '/countries'">
-        <input
-          class="form-control mr-sm-2"
-          type="search"
-          placeholder="Search"
-          aria-label="Search"
-        />
-        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">
-          Search
-        </button>
+        <v-select
+          placeholder="Choose Country Please"
+          style="width: 15rem;"
+          label="Country"
+          @input="submit()"
+          :options="this.$store.state.countries.countriesSorted"
+          v-model="selected"
+        ></v-select>
       </form>
-      <dropdown
-        class="form-inline my-2 my-lg-0"
-        :options="this.$store.state.countries.countries"
-        v-on:selected="validateSelection"
-      >
-      </dropdown>
     </div>
   </nav>
 </template>
@@ -82,22 +75,28 @@ export default {
   name: "NavBar",
   data() {
     return {
-      path: ""
+      path: "",
+      selected: []
     };
   },
   watch: {
     $route() {
       this.path = this.$router.currentRoute.fullPath;
+      this.selected = [];
     }
   },
   methods: {
-    validateSelection(selected) {
-      console.log(selected.CountryCode);
-      this.$router.push({
-        name: 'country-show',
-        params: { countryCode: selected.CountryCode }
-      });
+    submit() {
+      if (this.selected) {
+        this.$router.push({
+          name: "country-show",
+          params: { countryCode: this.selected.CountryCode }
+        });
+      }
     }
+  },
+  created() {
+    this.path = this.$router.currentRoute.fullPath;
   }
 };
 </script>

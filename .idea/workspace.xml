@@ -46,7 +46,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="LINE-CHART" />
+        <entry key="$PROJECT_DIR$" value="Development" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,11 +61,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="LINE-CHART" />
-                    <option name="lastUsedInstant" value="1588417064" />
+                    <option name="lastUsedInstant" value="1588496483" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="Development" />
-                    <option name="lastUsedInstant" value="1588416771" />
+                    <option name="lastUsedInstant" value="1588496392" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
@@ -382,6 +382,11 @@
             </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
       </map>
     </option>
     <option name="OPEN_GENERIC_TABS">
@@ -443,6 +448,10 @@
     <state x="340" y="26" width="862" height="854" key="CommitChangelistDialog2/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1587108284725" />
     <state x="2298" y="31" key="CommitChangelistDialog2/70.27.1850.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587984234273" />
     <state x="435" y="57" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1585868194413" />
+    <state x="100" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1588501416198">
+      <screen x="70" y="0" width="1850" height="1080" />
+    </state>
+    <state x="100" y="100" width="1720" height="880" key="DiffContextDialog/0.1080.1920.1080/70.0.1850.1080@70.0.1850.1080" timestamp="1588501416198" />
     <state x="710" y="253" width="424" height="492" key="FileChooserDialogImpl" timestamp="1588448168712">
       <screen x="70" y="0" width="1850" height="1080" />
     </state>
@@ -489,18 +498,19 @@
     </state>
     <state x="968" y="370" width="454" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585653900777" />
     <state x="2571" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/70.27.1850.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587982776495" />
-    <state x="629" y="78" width="461" height="777" key="git4idea.branch.GitSmartOperationDialog" timestamp="1588417059012">
+    <state x="629" y="78" width="461" height="777" key="git4idea.branch.GitSmartOperationDialog" timestamp="1588496482901">
       <screen x="70" y="0" width="1850" height="1080" />
     </state>
-    <state x="629" y="78" key="git4idea.branch.GitSmartOperationDialog/0.1080.1920.1080/70.0.1850.1080@70.0.1850.1080" timestamp="1588417059012" />
+    <state x="629" y="78" width="461" height="777" key="git4idea.branch.GitSmartOperationDialog/0.1080.1920.1080/70.0.1850.1080@70.0.1850.1080" timestamp="1588496482901" />
     <state x="484" y="65" width="461" height="777" key="git4idea.branch.GitSmartOperationDialog/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1587058505332" />
     <state x="531" y="339" width="680" height="321" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1586596712655">
       <screen x="70" y="0" width="1370" height="900" />
     </state>
     <state x="531" y="339" width="680" height="321" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586596712655" />
-    <state x="384" y="199" key="run.anything.popup" timestamp="1587107694456">
-      <screen x="70" y="0" width="1370" height="900" />
+    <state x="494" y="239" key="run.anything.popup" timestamp="1588500401860">
+      <screen x="70" y="0" width="1850" height="1080" />
     </state>
+    <state x="494" y="239" key="run.anything.popup/0.1080.1920.1080/70.0.1850.1080@70.0.1850.1080" timestamp="1588500401860" />
     <state x="384" y="199" key="run.anything.popup/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1587107694456" />
     <state x="434" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1586597447521">
       <screen x="70" y="0" width="1370" height="900" />
