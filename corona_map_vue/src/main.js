@@ -14,6 +14,10 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
+import vSelect from "vue-select";
+
+import "vue-select/dist/vue-select.css";
+
 mapInit(Highcharts);
 
 Highcharts.maps["myMapName"] = mapData;
@@ -22,6 +26,8 @@ Vue.use(HighchartsVue);
 Vue.use(moment);
 Vue.component("country-flag", CountryFlag);
 Vue.component("jw-pagination", JwPagination);
+
+Vue.component("v-select", vSelect);
 Vue.config.productionTip = false;
 
 new Vue({
