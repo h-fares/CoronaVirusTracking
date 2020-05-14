@@ -15,6 +15,7 @@ export const mutations = {
 export const actions = {
   fetchAllCases({ commit, dispatch }) {
     CountriesServices.getCountries().then(response => {
+      console.log(response.data["Date"])
       commit("SET_ALL_CASES", response.data);
       dispatch("countries/fetchCountries", response.data["Countries"], {
         root: true

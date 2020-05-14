@@ -47,7 +47,7 @@ export default {
           useHTML: true,
           padding: 0,
           pointFormat:
-            '<span class="badge badge-info" style="font-size:1em">{point.Country} </span> <br> <img src="https://www.countryflags.io/{point.CountryCode}/shiny/32.png"> <br>' +
+            '<span class="badge badge-info" style="font-size:1em">{point.Country} </span> <br> <img src="https://www.countryflags.io/{point.FlagCode}/shiny/32.png"> <br>' +
             '<span class="badge badge-dark" style="font-size:1em">Total <strong>Confirmed Cases</strong> {point.value} </span> <br>' +
             '<span class="badge badge-secondary" style="font-size:1em">New <strong>Confirmed Cases</strong> {point.NewConfirmed} </span> <br>' +
             '<span class="badge badge-danger" style="font-size:1em">Total <strong>Deaths</strong> {point.TotalDeaths} </span> <br>' +

@@ -3,7 +3,7 @@
     <router-link
       :to="{
         name: 'country-show',
-        params: { countryCode: country.CountryCode }
+        params: { countryCode: country.FlagCode }
       }"
       class="nav-link"
       style="color: #000000"
@@ -13,7 +13,7 @@
           <div class="card-body">
             <h5 class="card-title">{{ country["Country"] }}</h5>
 
-            <country-flag :country="country['CountryCode']" size='big'></country-flag>
+            <country-flag :country="country['FlagCode']" size='big'></country-flag>
 
             <p class="card-text m-2">
               <strong style="color: #dd4b39">Confirmed Cases</strong>

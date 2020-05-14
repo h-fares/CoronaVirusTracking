@@ -62,7 +62,7 @@ export default {
       if (this.selected) {
         this.$router.push({
           name: "country-show",
-          params: { countryCode: this.selected.CountryCode }
+          params: { countryCode: this.selected.FlagCode }
         });
       }
     }

@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
     <h4 class="card-title">{{ country['Country'] }}</h4>
-    <country-flag :country="country['CountryCode']" size='big'></country-flag>
+    <country-flag :country="country['FlagCode']" size='big'></country-flag>
     <div class="container">
       <div class="row">
         <InfoCountry :country="country"></InfoCountry>
