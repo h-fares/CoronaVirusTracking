@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-
     <list default="true" id="b863c7f7-48dc-432d-af77-d57e2badf676" name="Default Changelist" comment="prepare to merge in master">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map_vue/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/components/ChartMap.vue" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/components/ChartMap.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +44,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="LINE-CHART" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,12 +58,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="LINE-CHART" />
-                    <option name="lastUsedInstant" value="1588496483" />
+                    <option name="branchName" value="CLM-3" />
+                    <option name="lastUsedInstant" value="1595187006" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="Development" />
-                    <option name="lastUsedInstant" value="1588496392" />
+                    <option name="lastUsedInstant" value="1595186628" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="LINE-CHART" />
+                    <option name="lastUsedInstant" value="1588496483" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
@@ -479,11 +482,9 @@
     <state x="313" y="130" width="992" height="737" key="SettingsEditor/0.1080.1920.1080/70.0.1850.1080@70.0.1850.1080" timestamp="1588409948838" />
     <state x="195" y="1002" key="SettingsEditor/0.900.1920.1080/70.0.1370.900@0.900.1920.1080" timestamp="1586595765821" />
     <state x="250" y="108" width="1022" height="737" key="SettingsEditor/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586597464682" />
-
     <state x="313" y="130" width="992" height="737" key="SettingsEditor/70.0.1850.1080/1920.0.1920.1080@70.0.1850.1080" timestamp="1588409163459" />
     <state x="2340" y="223" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1587984236251">
       <screen x="1920" y="0" width="1920" height="1080" />
-
     </state>
     <state x="475" y="223" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/70.0.1850.1080@70.0.1850.1080" timestamp="1588419672404" />
     <state x="795" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585855687323" />

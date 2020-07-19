@@ -58,7 +58,7 @@ export default {
         },
         colorAxis: {
           min: 1,
-          max: 100000,
+          max: 5000000,
           type: "logarithmic"
         },
         series: [
