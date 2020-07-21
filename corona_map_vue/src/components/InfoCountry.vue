@@ -1,23 +1,89 @@
 <template>
   <div class="col">
-    <div class="card mb-4 mt-4 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;height: 27rem">
+    <div
+      class="card mb-4 mt-4 shadow p-3 mb-5 bg-white rounded"
+      style="width: 18rem;height: 27rem"
+    >
       <div class="card-body">
-        <p class="card-text m-2">
-          <span class="badge badge-danger" style="font-size:1em">All <strong>Confirmed Cases</strong> {{ country["value"] }} </span> <br><br>
-          <span class="badge " style="font-size:1em; background-color: rgb(124, 181, 236); color: #ffffff"> <strong>Active</strong>
-            {{
-            country["value"] -
-              country["TotalDeaths"] -
-              country["TotalRecovered"]
-          }} </span> <br><br>
-          <span class="badge badge-dark" style="font-size:1em"> <strong>Death</strong> {{ country["TotalDeaths"] }} </span> <br><br>
-          <span class="badge badge-success" style="font-size:1em"> <strong>Recovered</strong> {{ country["TotalRecovered"] }} </span> <br><br>
-
-
-          <span class="badge badge-info" style="font-size:1em">NEW <strong>Confirmed Cases</strong> {{ country["NewConfirmed"] }}</span> <br><br>
-          <span class="badge badge-dark" style="font-size:1em"> <strong>Death</strong> {{ country["NewDeaths"] }} </span> <br><br>
-          <span class="badge badge-success" style="font-size:1em"> <strong>Recovered</strong> {{ country["NewRecovered"] }} </span> <br><br>
-        </p>
+        <div class="card-text mx-auto">
+          <ul class="list-group">
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+              style="font-size:0.9em"
+            >
+              Total Cases
+              <span
+                class="badge badge-danger badge-pill"
+                style="font-size:1em"
+                >{{ country["value"] }}</span
+              >
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+              style="font-size:0.9em"
+            >
+              Active Cases
+              <span
+                class="badge badge-primary badge-pill"
+                style="font-size:1em; background-color: rgb(124, 181, 236); color: #ffffff"
+                >{{
+                  country["value"] -
+                    country["TotalDeaths"] -
+                    country["TotalRecovered"]
+                }}</span
+              >
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+              style="font-size:0.9em"
+            >
+              Total Deaths
+              <span class="badge badge-dark badge-pill" style="font-size:1em">{{
+                country["TotalDeaths"]
+              }}</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+              style="font-size:0.9em"
+            >
+              Total Recovered
+              <span
+                class="badge badge-success badge-pill"
+                style="font-size:1em"
+                >{{ country["TotalRecovered"] }}</span
+              >
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+              style="font-size:0.9em"
+            >
+              New Confirmed
+              <span class="badge badge-info badge-pill" style="font-size:1em">
+                {{ country["NewConfirmed"] }}
+              </span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+              style="font-size:0.9em"
+            >
+              New Deaths
+              <span class="badge badge-dark badge-pill" style="font-size:1em"
+                >{{ country["NewDeaths"] }}
+              </span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+              style="font-size:0.9em"
+            >
+              New Recovered
+              <span
+                class="badge badge-success badge-pill"
+                style="font-size:1em"
+                >{{ country["NewRecovered"] }}</span
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
