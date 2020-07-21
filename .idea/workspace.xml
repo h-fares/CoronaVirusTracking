@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b863c7f7-48dc-432d-af77-d57e2badf676" name="Default Changelist" comment="prepare to merge in master">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/components/ChartMap.vue" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/components/ChartMap.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/components/InfoCountry.vue" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/components/InfoCountry.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="CLM-4" />
+                    <option name="lastUsedInstant" value="1595356068" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="CLM-5" />
                     <option name="lastUsedInstant" value="1595189615" />
@@ -178,6 +182,7 @@
       <workItem from="1588412910998" duration="76000" />
       <workItem from="1588413012041" duration="30000" />
       <workItem from="1588413628605" duration="1434000" />
+      <workItem from="1595354655695" duration="4090000" />
     </task>
     <task id="LOCAL-00001" summary="add Highmaps">
       <created>1585579781516</created>
@@ -354,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588419670601</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add Global numbers">
+      <created>1595191195655</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1595191195655</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +434,8 @@
     <MESSAGE value="change InfoCountry.vue" />
     <MESSAGE value="edit" />
     <MESSAGE value="add shadows to cards" />
-    <option name="LAST_COMMIT_MESSAGE" value="add shadows to cards" />
+    <MESSAGE value="add Global numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Global numbers" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1649" y="404" width="261" height="214" key="#ESLint" timestamp="1588449254645">
