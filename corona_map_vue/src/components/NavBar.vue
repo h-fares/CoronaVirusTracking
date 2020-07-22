@@ -1,5 +1,5 @@
 <template>
-  <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav id="nav" class="navbar navbar-expand-lg">
     <img
       src="../../public/coronaIcon.png"
       alt="Avatar"
@@ -73,16 +73,19 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+  @import "../style";
 #nav {
+  background-color: $background-color-secondary;
+
 }
 
 #nav a {
   font-weight: bold;
-  color: #2a54aa;
+  color: $primary-color;
 }
 
 #nav a.router-link-exact-active {
-  color: rgb(99, 130, 193);
+  color: $secondary-color;
 }
 </style>
