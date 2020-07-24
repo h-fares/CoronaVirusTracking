@@ -24,7 +24,7 @@
               Updated:
               {{ country.Date | moment("dddd, MMMM Do YYYY, h:mm:ss a") }}
             </p>
-            <button type="button" class="btn btn-primary"> More Information </button>
+            <button type="button" class="btn info-btn"> More Information </button>
 
           </div>
         </div>
@@ -47,6 +47,17 @@ export default {
   }
   .card-title{
     color: $secondary-color;
+  }
+
+  .info-btn{
+    background-color: $background-color-items;
+    color: $primary-color;
+  }
+
+  .info-btn:hover{
+    background-color: $background-color-secondary;
+    color: $secondary-color;
+    border-bottom: 2px solid $primary-color;
   }
 
 

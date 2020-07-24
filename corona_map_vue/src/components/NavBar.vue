@@ -73,11 +73,13 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
+  @import "~vue-select/src/scss/global/variables";
   @import "../style";
+
+
 #nav {
   background-color: $background-color-secondary;
-
 }
 
 #nav a {
@@ -88,4 +90,26 @@ export default {
 #nav a.router-link-exact-active {
   color: $secondary-color;
 }
+
+.vs__search{
+  color: $items-color;
+  text-transform: lowercase;
+  opacity: 0.5;
+  cursor: pointer;
+  }
+
+  .v-select .vs__dropdown-toggle,
+  .v-select .vs__dropdown-menu {
+    background: $background-color-items;
+    border: none;
+    text-transform: lowercase;
+  }
+
+
+  .style-chooser .vs__clear,
+  .style-chooser .vs__open-indicator {
+    fill: #394066;
+  }
+
+
 </style>
