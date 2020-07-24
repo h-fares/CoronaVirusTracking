@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="d-lg-flex justify-content-around  m-3">
+    <div class="d-lg-flex justify-content-around m-3">
       <span class="badge badge-danger m-1" style="font-size:1em">Global Total <strong>Confirmed Cases: </strong> {{ global.globalCases.TotalConfirmed}} </span>
       <span class="badge badge-info m-1" style="font-size:1em">Global New <strong>Confirmed Cases: </strong> {{ global.globalCases.NewConfirmed}} </span>
       <span class="badge badge-dark m-1" style="font-size:1em">Global Total <strong>Deaths: </strong> {{ global.globalCases.TotalDeaths}} </span>
@@ -9,7 +9,7 @@
     <highcharts
       :constructor-type="'mapChart'"
       :options="mapOptions"
-      class="map"
+      class="map shadow "
     ></highcharts>
     <div>Updated {{ date.date | moment("from", "now") }}<br/><br></div>
 
@@ -27,26 +27,44 @@ export default {
     mapOptions() {
       return {
         chart: {
-          map: "myMapName"
+          map: "myMapName",
+          marginLeft: 0,
+          marginRight: 0,
+          plotBorderWidth: 0,
+          plotShadow: false,
+          backgroundColor: "#0f4c75",
+          plotBackgroundColor: '#0f4c75',
+          borderWidth:0
         },
         title: {
-          text: "Coronavirus Live Map"
+          text: "Coronavirus Live Map",
+          style: {
+            color: "#fff"
+          }
         },
         credits: {
           enabled: false
         },
         legend: {
+          backgroundColor:"#0f4c75",
+          itemStyle: {
+
+          },
           title: {
-            text: "Number of Confirmed cases"
+            text: "Number of Confirmed cases",
+            color:"#fff"
           }
         },
         mapNavigation: {
           enabled: true,
           buttonOptions: {
-            verticalAlign: "top"
+            symbolStroke:"#3282b8",
+            style: {
+              color: "#3282b8"
+            }
+
           }
         },
-
         tooltip: {
           backgroundColor: "none",
           borderWidth: 0,
@@ -76,7 +94,7 @@ export default {
             data: this.countries.countries,
             minSize: 4,
             maxSize: "12%",
-            states: {}
+            states: {},
           }
         ]
       };
@@ -92,5 +110,6 @@ export default {
 .map {
   min-height: 500px;
   margin: 2%;
+
 }
 </style>

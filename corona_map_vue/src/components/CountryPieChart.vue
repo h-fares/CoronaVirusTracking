@@ -1,6 +1,6 @@
 <template>
   <div class="col">
-    <div class="card mb-4 mt-4 shadow p-3 mb-5 bg-white rounded" style="width: 18rem; height: 27rem" >
+    <div class="card mb-4 mt-4 shadow p-3 mb-5 rounded" style="width: 18rem; height: 27rem" >
       <div class="card-body">
         <highcharts
           :options="chartOptions"
@@ -84,4 +84,9 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+  @import "../style";
+  .card{
+    background-color: $background-color-secondary;
+  }
+</style>

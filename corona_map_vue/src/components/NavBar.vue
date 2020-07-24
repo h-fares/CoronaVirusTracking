@@ -1,5 +1,5 @@
 <template>
-  <nav id="nav" class="navbar navbar-expand-lg">
+  <nav id="nav" class="navbar navbar-expand-lg shadow ">
     <img
       src="../../public/coronaIcon.png"
       alt="Avatar"
