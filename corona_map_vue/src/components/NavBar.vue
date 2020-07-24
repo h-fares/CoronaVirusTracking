@@ -84,11 +84,11 @@ export default {
 
 #nav a {
   font-weight: bold;
-  color: $primary-color;
+  color: $secondary-color;
 }
 
 #nav a.router-link-exact-active {
-  color: $secondary-color;
+  color: $primary-color;
 }
 
 .vs__search{
