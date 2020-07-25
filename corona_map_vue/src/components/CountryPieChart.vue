@@ -1,5 +1,4 @@
 <template>
-  <div class="col">
     <div class="card mb-4 mt-4 shadow p-3 mb-5 rounded" style="width: 18rem; height: 27rem" >
       <div class="card-body">
         <highcharts
@@ -10,7 +9,6 @@
         <span class="badge badge-dark" style="font-size:1em"> <strong>Death</strong></span>
       </div>
     </div>
-  </div>
 </template>
 
 <script>

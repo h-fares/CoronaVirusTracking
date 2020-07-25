@@ -1,12 +1,10 @@
 <template>
-  <div class="container-fluid">
-    <h4 class="card-title">{{ country['Country'] }}</h4>
+  <div class="container">
+    <h4 class="title">{{ country['Country'] }}</h4>
     <country-flag :country="country['CountryCode']" size='big'></country-flag>
-    <div class="container">
-      <div class="row">
+    <div class="d-lg-flex justify-content-around">
         <InfoCountry :country="country"></InfoCountry>
         <CountryPieChart :country="country"></CountryPieChart>
-      </div>
     </div>
   </div>
 </template>
@@ -37,7 +35,7 @@ export default {
 </script>
 
 <style scoped>
-  .card-title{
+  .title{
     color: white;
   }
 </style>
