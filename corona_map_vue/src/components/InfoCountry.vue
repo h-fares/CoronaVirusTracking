@@ -102,4 +102,11 @@ export default {
     background-color: $background-color-secondary;
     color: white;
   }
+  .card{
+    background-color: $background-color-secondary;
+    transition: transform 0.2s;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
 </style>
