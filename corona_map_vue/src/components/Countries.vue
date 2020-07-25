@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="card-footer pb-0 pt-3">
+    <div class="pb-0 pt-3">
       <jw-pagination
         :items="countries.countries"
         @changePage="onChangePage"
@@ -75,7 +75,6 @@ export default {
     background: $background-color-items;
     color: $items-color;
   }
-
   .goUp{
     cursor: pointer;
     border-radius: 20px;

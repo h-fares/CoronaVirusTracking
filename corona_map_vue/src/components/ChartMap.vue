@@ -11,7 +11,7 @@
       :options="mapOptions"
       class="map shadow "
     ></highcharts>
-    <div>Updated {{ date.date | moment("from", "now") }}<br/><br></div>
+    <div class="updated container">Updated {{ date.date | moment("from", "now") }}<br/><br></div>
 
   </div>
 </template>
@@ -26,6 +26,7 @@ export default {
     ...mapState(["countries", "date", "global"]),
     mapOptions() {
       return {
+        colors: ['#7cb5e8', '#343a40', '#28a745'],
         chart: {
           map: "myMapName",
           marginLeft: 0,
@@ -106,10 +107,17 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+  @import "../style";
 .map {
   min-height: 500px;
   margin: 2%;
-
 }
+  .updated{
+    background-color: $background-color-items;
+    color: $items-color;
+    padding-top: 1.5em;
+    width: fit-content;
+    border-radius: 20px;
+  }
 </style>

@@ -35,12 +35,18 @@ export default {
   computed: {
     chartOptions() {
       return {
+        colors: ['#7cb5e8', '#343a40', '#28a745'],
         chart: {
-          plotBackgroundColor: null,
-          plotBorderWidth: null,
-          plotShadow: false,
+          map: "countryPieChart",
           type: "pie",
-          height: 100+ '%'
+          height: 100+ '%',
+          marginLeft: 0,
+          marginRight: 0,
+          plotBorderWidth: 0,
+          plotShadow: false,
+          backgroundColor: "#0f4c75",
+          plotBackgroundColor: '#0f4c75',
+          borderWidth:0
         },
         title: {
           text: "All Cases Diagram"
