@@ -36,8 +36,4 @@ export default {
 };
 </script>
 
-<style scoped>
-  .card-title{
-    color: white;
-  }
-</style>
+<style scoped></style>
