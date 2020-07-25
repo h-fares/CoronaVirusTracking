@@ -1,5 +1,5 @@
 <template>
-  <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav id="nav" class="navbar navbar-expand-lg shadow ">
     <img
       src="../../public/coronaIcon.png"
       alt="Avatar"
@@ -73,16 +73,43 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss">
+  @import "~vue-select/src/scss/global/variables";
+  @import "../style";
+
+
 #nav {
+  background-color: $background-color-secondary;
 }
 
 #nav a {
   font-weight: bold;
-  color: #2a54aa;
+  color: $secondary-color;
 }
 
 #nav a.router-link-exact-active {
-  color: rgb(99, 130, 193);
+  color: $primary-color;
 }
+
+.vs__search{
+  color: $items-color;
+  text-transform: lowercase;
+  opacity: 0.5;
+  cursor: pointer;
+  }
+
+  .v-select .vs__dropdown-toggle,
+  .v-select .vs__dropdown-menu {
+    background: $background-color-items;
+    border: none;
+    text-transform: lowercase;
+  }
+
+
+  .style-chooser .vs__clear,
+  .style-chooser .vs__open-indicator {
+    fill: #394066;
+  }
+
+
 </style>

@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-
     <list default="true" id="b863c7f7-48dc-432d-af77-d57e2badf676" name="Default Changelist" comment="prepare to merge in master">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corona_map_vue/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_map_vue/src/components/InfoCountry.vue" beforeDir="false" afterPath="$PROJECT_DIR$/corona_map_vue/src/components/InfoCountry.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +57,14 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="CLM-4" />
+                    <option name="lastUsedInstant" value="1595356068" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="CLM-5" />
+                    <option name="lastUsedInstant" value="1595189615" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="LINE-CHART" />
                     <option name="lastUsedInstant" value="1588496483" />
@@ -175,6 +182,7 @@
       <workItem from="1588412910998" duration="76000" />
       <workItem from="1588413012041" duration="30000" />
       <workItem from="1588413628605" duration="1434000" />
+      <workItem from="1595354655695" duration="4090000" />
     </task>
     <task id="LOCAL-00001" summary="add Highmaps">
       <created>1585579781516</created>
@@ -351,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588419670601</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add Global numbers">
+      <created>1595191195655</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1595191195655</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,39 +434,25 @@
     <MESSAGE value="change InfoCountry.vue" />
     <MESSAGE value="edit" />
     <MESSAGE value="add shadows to cards" />
-    <option name="LAST_COMMIT_MESSAGE" value="add shadows to cards" />
+    <MESSAGE value="add Global numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Global numbers" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="795" y="111" width="800" height="684" key="#Deployment" timestamp="1585568264150">
-      <screen x="480" y="0" width="1440" height="900" />
-    </state>
-    <state x="795" y="111" width="800" height="684" key="#Deployment/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585568264150" />
     <state x="1649" y="404" width="261" height="214" key="#ESLint" timestamp="1588449254645">
       <screen x="70" y="0" width="1850" height="1080" />
     </state>
     <state x="1649" y="404" key="#ESLint/0.1080.1920.1080/70.0.1850.1080@70.0.1850.1080" timestamp="1588449254645" />
     <state x="1649" y="421" width="261" height="214" key="#ESLint/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1588351307485" />
-    <state x="315" y="111" width="800" height="684" key="#Inspections" timestamp="1585998160731">
-      <screen x="70" y="0" width="1370" height="900" />
-    </state>
-    <state x="315" y="111" width="800" height="684" key="#Inspections/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1585998160731" />
     <state x="1693" y="349" width="227" height="325" key="#Notifications" timestamp="1588409231737">
       <screen x="70" y="0" width="1850" height="1080" />
     </state>
     <state x="1693" y="349" width="227" height="325" key="#Notifications/70.0.1850.1080/1920.0.1920.1080@70.0.1850.1080" timestamp="1588409231737" />
     <state x="1693" y="367" width="217" height="316" key="#Notifications/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1588348204038" />
-    <state x="501" y="199" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585998875605">
-      <screen x="70" y="0" width="1370" height="900" />
-    </state>
-    <state x="933" y="199" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585681952163" />
-    <state x="501" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1585998875605" />
     <state x="2298" y="31" width="862" height="854" key="CommitChangelistDialog2" timestamp="1587984234273">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="764" y="26" width="862" height="854" key="CommitChangelistDialog2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585855684069" />
     <state x="340" y="26" width="862" height="854" key="CommitChangelistDialog2/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1587108284725" />
     <state x="2298" y="31" key="CommitChangelistDialog2/70.27.1850.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587984234273" />
-    <state x="435" y="57" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1585868194413" />
     <state x="100" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1588501416198">
       <screen x="70" y="0" width="1850" height="1080" />
     </state>
@@ -460,7 +461,6 @@
       <screen x="70" y="0" width="1850" height="1080" />
     </state>
     <state x="710" y="253" key="FileChooserDialogImpl/0.1080.1920.1080/70.0.1850.1080@70.0.1850.1080" timestamp="1588448168712" />
-    <state x="978" y="211" width="424" height="491" key="FileChooserDialogImpl/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585567675082" />
     <state x="544" y="211" width="424" height="491" key="FileChooserDialogImpl/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1587109386034" />
     <state x="2584" y="253" width="424" height="492" key="FileChooserDialogImpl/70.27.1850.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1588057723907" />
     <state x="710" y="274" width="424" height="492" key="FileChooserDialogImpl/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1587487737742" />
@@ -469,31 +469,19 @@
     </state>
     <state x="23" y="0" key="MergeDialog/0.1080.1920.1080/70.0.1850.1080@70.0.1850.1080" timestamp="1588417064324" />
     <state x="35" y="0" width="1360" height="900" key="MergeDialog/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1587058514605" />
-    <state x="995" y="375" width="399" height="156" key="NewPhpFileDialog" timestamp="1585569230217">
-      <screen x="480" y="0" width="1440" height="900" />
-    </state>
-    <state x="995" y="375" width="399" height="156" key="NewPhpFileDialog/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585569230217" />
     <state x="313" y="130" width="992" height="737" key="SettingsEditor" timestamp="1588409948838">
       <screen x="70" y="0" width="1850" height="1080" />
     </state>
     <state x="313" y="130" width="992" height="737" key="SettingsEditor/0.1080.1920.1080/70.0.1850.1080@70.0.1850.1080" timestamp="1588409948838" />
     <state x="195" y="1002" key="SettingsEditor/0.900.1920.1080/70.0.1370.900@0.900.1920.1080" timestamp="1586595765821" />
     <state x="250" y="108" width="1022" height="737" key="SettingsEditor/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586597464682" />
-
     <state x="313" y="130" width="992" height="737" key="SettingsEditor/70.0.1850.1080/1920.0.1920.1080@70.0.1850.1080" timestamp="1588409163459" />
     <state x="2340" y="223" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1587984236251">
       <screen x="1920" y="0" width="1920" height="1080" />
-
     </state>
     <state x="475" y="223" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/70.0.1850.1080@70.0.1850.1080" timestamp="1588419672404" />
-    <state x="795" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585855687323" />
     <state x="370" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1587108287398" />
     <state x="2340" y="223" key="Vcs.Push.Dialog.v2/70.27.1850.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587984236251" />
-    <state x="475" y="245" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1585868199838" />
-    <state x="1045" y="350" width="492" height="207" key="WebDeployment.AddServerDialog.v.1" timestamp="1585567657381">
-      <screen x="480" y="0" width="1440" height="900" />
-    </state>
-    <state x="1045" y="350" width="492" height="207" key="WebDeployment.AddServerDialog.v.1/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585567657381" />
     <state x="840" y="382" width="230" height="322" key="cloudConfig.SelfSettingsDialog" timestamp="1588413693559">
       <screen x="70" y="0" width="1850" height="1080" />
     </state>
@@ -501,14 +489,12 @@
     <state x="428" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1586597358447">
       <screen x="70" y="0" width="1370" height="900" />
     </state>
-    <state x="856" y="277" key="com.intellij.ide.util.TipDialog/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585851697481" />
     <state x="502" y="1232" key="com.intellij.ide.util.TipDialog/0.900.1920.1080/70.0.1370.900@0.900.1920.1080" timestamp="1586595785662" />
     <state x="428" y="277" key="com.intellij.ide.util.TipDialog/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586597358447" />
-    <state x="553" y="351" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1585868476313" />
-    <state x="2571" y="444" width="454" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587982776495">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="697" y="444" width="438" height="192" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595190042190">
+      <screen x="70" y="0" width="1850" height="1080" />
     </state>
-    <state x="968" y="370" width="454" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585653900777" />
+    <state x="697" y="444" width="438" height="192" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.1080.1920.1080/70.0.1850.1080@70.0.1850.1080" timestamp="1595190042190" />
     <state x="2571" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/70.27.1850.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587982776495" />
     <state x="629" y="78" width="461" height="777" key="git4idea.branch.GitSmartOperationDialog" timestamp="1588496482901">
       <screen x="70" y="0" width="1850" height="1080" />
@@ -527,12 +513,7 @@
     <state x="562" y="233" width="908" height="814" key="search.everywhere.popup" timestamp="1588409003079">
       <screen x="70" y="0" width="1850" height="1080" />
     </state>
-    <state x="863" y="194" width="672" height="678" key="search.everywhere.popup/0.900.1920.1080/480.0.1440.900@480.0.1440.900" timestamp="1585569506987" />
     <state x="434" y="194" width="672" height="678" key="search.everywhere.popup/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586597447521" />
     <state x="562" y="233" width="908" height="814" key="search.everywhere.popup/70.0.1850.1080/1920.0.1920.1080@70.0.1850.1080" timestamp="1588409003079" />
-    <state x="445" y="342" width="540" height="223" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1586166214355">
-      <screen x="70" y="0" width="1370" height="900" />
-    </state>
-    <state x="445" y="342" width="540" height="223" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.900.1920.1080/70.0.1370.900@70.0.1370.900" timestamp="1586166214355" />
   </component>
 </project>

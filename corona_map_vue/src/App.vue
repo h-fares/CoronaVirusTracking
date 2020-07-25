@@ -17,11 +17,13 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+  @import "style";
 html,
 body {
   height: 100%;
   position: relative;
+  background-color: $background-color-primary;
 }
 * {
   box-sizing: border-box;
