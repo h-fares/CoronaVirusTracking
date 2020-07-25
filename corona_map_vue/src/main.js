@@ -5,7 +5,6 @@ import HighchartsVue from "highcharts-vue";
 import Highcharts from "highcharts";
 import mapInit from "highcharts/modules/map";
 import mapData from "@highcharts/map-collection/custom/world.geo.json";
-import darkTheme from "highcharts/themes/dark-blue";
 import moment from "vue-moment";
 import "nprogress/nprogress.css";
 import CountryFlag from "vue-country-flag";
@@ -18,7 +17,7 @@ import store from "./store";
 import vSelect from "vue-select";
 
 import "vue-select/dist/vue-select.css";
-darkTheme(Highcharts);
+
 mapInit(Highcharts);
 
 Highcharts.maps["myMapName"] = mapData;
