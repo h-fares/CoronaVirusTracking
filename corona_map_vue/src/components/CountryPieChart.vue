@@ -1,6 +1,6 @@
 <template>
   <div class="col">
-    <div class="card mb-4 mt-4 shadow p-3 mb-5 bg-white rounded" style="width: 18rem; height: 27rem" >
+    <div class="card mb-4 mt-4 shadow p-3 mb-5 rounded" style="width: 18rem; height: 27rem" >
       <div class="card-body">
         <highcharts
           :options="chartOptions"
@@ -35,12 +35,18 @@ export default {
   computed: {
     chartOptions() {
       return {
+        colors: ['#7cb5e8', '#343a40', '#28a745'],
         chart: {
-          plotBackgroundColor: null,
-          plotBorderWidth: null,
-          plotShadow: false,
+          map: "countryPieChart",
           type: "pie",
-          height: 100+ '%'
+          height: 100+ '%',
+          marginLeft: 0,
+          marginRight: 0,
+          plotBorderWidth: 0,
+          plotShadow: false,
+          backgroundColor: "#0f4c75",
+          plotBackgroundColor: '#0f4c75',
+          borderWidth:0
         },
         title: {
           text: "All Cases Diagram"
@@ -84,4 +90,9 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+  @import "../style";
+  .card{
+    background-color: $background-color-secondary;
+  }
+</style>
