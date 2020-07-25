@@ -1,5 +1,5 @@
 <template>
-  <nav id="nav" class="navbar navbar-expand-lg shadow ">
+  <nav id="nav" class="navbar navbar-expand-lg shadow rounded">
     <img
       src="../../public/coronaIcon.png"
       alt="Avatar"
@@ -15,7 +15,9 @@
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
-      <span class="navbar-toggler-icon"></span>
+      <svg width="1em" height="1em" style="color:#343A40; " viewBox="0 0 16 16" class="bi bi-justify" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+      </svg>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
@@ -28,8 +30,9 @@
           >
         </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0" v-if="this.path === '/countries'">
+      <form class="form-inline my-2 my-lg-0 " v-if="this.path === '/countries'">
         <v-select
+                class="mx-auto"
           placeholder="Choose Country Please"
           style="width: 15rem;"
           label="Country"
@@ -114,5 +117,11 @@ export default {
     fill: #394066;
   }
 
+  .navbar-toggler{
+    background-color: $background-color-items;
 
+  }
+  .navbar-toggler-icon{
+    color: $items-color;
+  }
 </style>

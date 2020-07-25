@@ -51,7 +51,7 @@ export default {
 
   .info-btn{
     background-color: $background-color-items;
-    color: $primary-color;
+    color: $items-color;
   }
 
   .info-btn:hover{

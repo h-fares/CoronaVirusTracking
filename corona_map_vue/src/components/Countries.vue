@@ -1,7 +1,8 @@
 <template>
   <div>
-    <div class="pb-0 pt-3">
+    <div class="pb-0 pt-3 mx-auto">
       <jw-pagination
+              class="mx-auto"
         :items="countries.countries"
         @changePage="onChangePage"
         :pageSize="15"
@@ -10,7 +11,7 @@
     <div class="container">
       <div class="row">
         <country
-          class="zoom"
+          class="zoom mx-auto"
           v-for="country in paginatedCountry"
           :key="country['Country']"
           :country="country"
