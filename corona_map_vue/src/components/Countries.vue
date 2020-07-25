@@ -10,6 +10,7 @@
     <div class="container">
       <div class="row">
         <country
+          class="zoom"
           v-for="country in paginatedCountry"
           :key="country['Country']"
           :country="country"
@@ -85,5 +86,11 @@ export default {
     background-color: $background-color-items;
     color: $primary-color;
   }
+  .zoom {
+    transition: transform 0.2s;
+  }
 
+  .zoom:hover {
+    transform: scale(1.05);
+  }
 </style>

@@ -1,7 +1,9 @@
 <template>
   <div id="app" class="container-fluid main-container">
     <nav-bar></nav-bar>
-    <router-view />
+    <transition name="fade" mode="out-in">
+      <router-view />
+    </transition>
     <main-footer></main-footer>
   </div>
 </template>
@@ -46,4 +48,15 @@ body {
   text-align: center;
   color: #2c3e50;
 }
+
+  .fade-enter {
+    opacity: 0;
+  }
+  .fade-leave-to {
+    opacity: 0;
+  }
+  .fade-enter-active,
+  .fade-leave-active {
+    transition: opacity 0.5s ease-out;
+  }
 </style>
