@@ -9,9 +9,10 @@
     <highcharts
       :constructor-type="'mapChart'"
       :options="mapOptions"
-      class="map shadow "
+      class="map shadow rounded
+"
     ></highcharts>
-    <div class="updated container">Updated {{ date.date | moment("from", "now") }}<br/><br></div>
+    <div class="updated container mb-5">Updated {{ date.date | moment("from", "now") }}<br/><br></div>
 
   </div>
 </template>
